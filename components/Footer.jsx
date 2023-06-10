@@ -28,69 +28,48 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-700 py-8">
-    <div className="container mx-auto px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="w-full md:flex md:flex-col">
-          <h2 className="text-white text-2xl font-bold mb-4">Contact Us</h2>
-          <div className="mb-4">
-            <input
-              type="text"
-              placeholder="Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
+
+    <footer class="footer_wrapper  py-8 text-white bg-gray-600">
+      <div class="container">
+        <section class="page_section contact" id="contact">
+          <div class="contact_section">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mt-4 mb-12 font-sang">Contact Us</h2>
           </div>
-          <div className="mb-4">
-            <input
-              type="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
+          <div class="grid md:grid-cols-2 gap-4 md:justify-items-center m-5">
+            <div class="">
+              <div class="text-xl font-ste">
+                <h4 class="font-bold">UNIQUE Infoway</h4>
+                <p>104, Some street, NewYork, USA</p>
+              </div>
+              <div class="text-xl font-ste mt-5">
+                <h4 class="font-bold">Call us</h4>
+                <p>+1 234 567890</p>
+              </div>
+              <div class="text-xl font-ste mt-5">
+                <h4 class="font-bold">Email us</h4>
+                <p>support@sitename.com</p>
+              </div>
+
+              <ul class="flex justify-start mt-5">
+                <li><a href="javascript:void(0)" class="text-3xl mx-2 hover:text-[#00acee]"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="javascript:void(0)" class="text-3xl mx-2 hover:text-[#3b5998]"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="javascript:void(0)" class="text-3xl mx-2 hover:text-[#c8232c]"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="javascript:void(0)" class="text-3xl mx-2 hover:text-[#c71610]"><i class="fab fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+            <div class="mt-12 md:m-0">
+              <div class="form text-black">
+                <input class="input-text mb-2 p-2 w-full border  border-gray-300 rounded" type="text" name="" placeholder='Name' />
+                <input class="input-text mb-2 p-2 w-full border border-gray-300 rounded" type="text" placeholder='Email'/>
+                <input class="input-text mb-2 p-2 w-full border border-gray-300 rounded" type="text" placeholder='Subject'/>
+                <textarea class="input-text text-area mb-2 p-2 w-full border border-gray-300 rounded" cols="0" rows="0" placeholder='Message'></textarea>
+                <input class="input-btn px-4 py-2 bg-gray-800  text-white rounded cursor-pointer font-ste hover:bg-black" type="submit" value="Send Message" />
+              </div>
+            </div>
           </div>
-          <div className="mb-4">
-            <input
-              type="text"
-              placeholder="Subject"
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
-              required
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
-        </div>
-        <div className="w-full md:flex md:flex-col h-96">
-          <div className="mb-4 mt-12">
-            <textarea
-              placeholder="Message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              required
-              rows={5}
-              className="w-full px-4 py-2 border rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-          </div>
-          <div className="text-center">
-            <button
-              type="submit"
-              disabled={isSending}
-              className={`px-6 py-2 text-white bg-gray-700 rounded-md ${
-                isSending ? 'opacity-50 cursor-not-allowed' : 'hover:bg-gray-800'
-              } focus:outline-none focus:ring-2 focus:ring-blue-500`}
-            >
-              {isSending ? 'Sending...' : 'Send Message'}
-            </button>
-          </div>
-        </div>
+        </section>
       </div>
-    </div>
-  </footer>
-  
+    </footer>
 
   );
 };
