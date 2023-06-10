@@ -2,13 +2,16 @@
 import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
-import Image from "next/image";
 
 const Navbar = () => {
 
 	const [isOpen, setIsOpen] = useState(false);
 	const [activeLink, setActiveLink] = useState("/");
 
+	const handleActive = (link) => {
+		setActiveLink(link);
+		setIsOpen(false);
+	}
 
 	return (
 		<div className="h-20 ">
@@ -17,7 +20,7 @@ const Navbar = () => {
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-10  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold font-sang text-xl cursor-pointer text-gray-500">
+								<h1 className=" font-bold font-sang text-base -mx-6 md:m-0 md:text-xl cursor-pointer text-gray-500">
 									Photo Tours, Workshops<span className="text-black"> & </span>Fixers
 								</h1>
 							</div>
@@ -124,64 +127,107 @@ const Navbar = () => {
 						<div className="md:hidden" id="mobile-menu">
 							<div
 								ref={ref}
-								className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
+								className="bg-white pt-2 pb-3 space-y-2  px-4 flex flex-col font-ste"
 							>
 								<Link
 									href="/"
-									activeClass="home"
-									to="home"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Home
-								</Link>
-								<Link
-									href="/about"
 									activeClass="about"
 									to="about"
 									smooth={true}
 									offset={50}
 									duration={500}
 									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
 								>
-									About
+									<a onClick={() => handleActive("/")}
+									>
+										Home</a>
+								</Link>
+								<Link
+									href="/tours-workshops"
+									activeClass="about"
+									to="about"
+									smooth={true}
+									offset={50}
+									duration={500}
+									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
+								>
+									<a onClick={() => handleActive("/tours-workshops")}
+									>
+										Tours & Workshops</a>
 								</Link>
 
 								<Link
-									href="/work"
+									href="/fixers"
 									activeClass="work"
 									to="work"
 									smooth={true}
 									offset={50}
 									duration={500}
 									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
 								>
-									Projects
+									<a onClick={() => handleActive("/fixers")}
+									>
+										Fixers</a>
 								</Link>
 								<Link
-									href="/"
+									href="/reviews"
 									activeClass="services"
 									to="services"
 									smooth={true}
 									offset={50}
 									duration={500}
 									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
 								>
-									Services
+									<a onClick={() => handleActive("/reviews")}
+									>
+										Reviews</a>
 								</Link>
 
 								<Link
-									href="/"
+									href="/gallery"
 									activeClass="work"
 									to="work"
 									smooth={true}
 									offset={50}
 									duration={500}
 									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
 								>
-									Contact
+									<a onClick={() => handleActive("/gallery")}
+									>
+										Gallery</a>
+								</Link>
+								<Link
+									href="/about"
+									activeClass="work"
+									to="work"
+									smooth={true}
+									offset={50}
+									duration={500}
+									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
+								>
+									<a onClick={() => handleActive("/about")}
+									>
+										About</a>
+								</Link>
+								<Link
+									href="/contact"
+									activeClass="work"
+									to="work"
+									smooth={true}
+									offset={50}
+									duration={500}
+									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									legacyBehavior
+								>
+									<a onClick={() => handleActive("/contact")}
+									>
+										Contact</a>
 								</Link>
 							</div>
 						</div>
