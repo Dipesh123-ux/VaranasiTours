@@ -1,12 +1,16 @@
 import React from 'react'
 import ReviewsContent from '../../components/Reviews/Content'
 import Testimonal from '@/components/Reviews/Testimonal'
-import Reviewers from '@/components/Reviews/Reviewers'
+import Video from '@/components/Reviews/Video'
 const Reviews = () => {
   return (
     <div>
       <ReviewsContent/>
-      <Reviewers/>
+      <Video/>
+      <Testimonal/>
+      <Video/>
+      <Testimonal/>
+      <Video/>
       <Testimonal/>
     </div>
   )

@@ -5,15 +5,21 @@ import headerPic from './assets/review-edit.jpg'
 const ReviewsContent = () => {
   return (
     <div>
-      <div className='h-screen '>
-        <Image src={headerPic} className="d-block  h-3/4 object-cover w-screen opacity-100" alt={"picture"} />
+     
+      <div className='p-4 rounded '>
+
+        <div className=' text-center p-2 font-semibold tracking-wide font-ste bg-zinc-100 '>
+          <p className='p-4'>"Our guests are the heros of our story and their reviews are our reality."</p>
+          <div className='w-11/12'>
+
+            <p className='flex  justify-end p-x-4 '>- Shivam Pandey (co founder indiatravelphotography.com)</p>
+          </div>
+        </div>
+
+
+        
       </div>
-      <div className="absolute inset-0 top-12  -mt-2 2xl:-mt-1   bg-black opacity-50  h-4/5  flex items-center justify-center ">
-        <h1 className="text-3xl md:text-5xl tracking-widest font-bold text-white z-20 font-sang">
-          REVIEWS
-        </h1>
-      </div>
-      
+
     </div>
   )
 }
