@@ -1,73 +1,79 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import headerPic from './assets/shivam2.jpg';
-import shivamPic from './assets/shivam3-edit.jpg'
+import shivamPic from './assets/shivam3.jpg'
+import Video from '../Reviews/Video';
+import ourStory from './assets/our-story.webp'
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Content = () => {
   return (
-    <div className=''>
-    <div className='absolute inset-0 top-20 bg-black opacity-50 z-8 h-screen flex items-center justify-center' ></div>
-    <Image className="h-screen object-cover"  src={headerPic} alt="" />
-    <br />
-    <div className="text-center w-11/12 ml-8 lg:ml-16 mb-16  flex flex-col items-center">
-      <div>
-        <h1 className=' text-center flex flex-col items-center'><span className="font-sang relative text-5xl font-bold text-black leading-relaxed">ABOUT</span>
-          <div className='abosulte w-8 border border-gray-300 mt-2'></div>
-        </h1>
-        <br /><br /><br />
-        <div  className='font-ste relative text-3xl fit-content pr-12  flex flex-col text-center  items-center '>
+    <div>
+      <div className=' text-center p-2 font-semibold tracking-wide font-ste bg-zinc-100 mt-4 '>
+        <p className='p-4'>"It is one thing to photograph people. It is
+          another to make others care about them by
+          revealing the core of their</p>
+        <p className="tracking-widest ">HUMANESS."</p>
 
-          <p className='text-center tracking-wide  md:w-3/5 xl:w-2/5 '>
-            "It is one thing to photograph people. It is
-            another to make others care about them by
-            revealing the core of their</p>
-          <p className="tracking-widest ">HUMANESS."</p>
+        <span className=" md:ml-60 lg:ml-80 mt-8"><em> - Paul Strand</em></span>
 
-          <br></br>
-          <span className=" ml-64 lg:ml-96"><em> - Paul Strand</em></span>
-          <div className='abosulte w-12 border border-gray-300 mt-2'></div>
-
-        </div>
-        <br />
       </div>
-      <br /><br />
-      <div id="initial-desc" className='font-ste tracking-wide leading-relaxed flex sm:flex-row flex-col text-left text-xl flexnowrap justify-center '>
-        <div className="sm:w-3/4 lg:w-1/3">
-          <p>
-            My name is Shivam Pandey and I’m a photographer, presently residing in Kolkata,
-            one of the most beautiful cities in India which itself being one of the most colourful countries in the world.
-          </p>
-          <p>
-            A young blood with some serious interest in exploration, navigating through place to place,
-            embracing the native culture and cherishing the originality of some special lives.
-          </p>
-        </div>
-        <div className="w-8 m-2"></div>
-        <div className="font-ste sm:w-3/4  lg:w-1/3">
-          <p>
-            My whole life has been, doing what my heart told me to do, choosing what suited best for my amusement.
-            I was raised in an orthodox society where following your heart was not considered a good option for a healthy
-            future.
-          </p>
-          <p>
-            But I always allowed my heart and intuitions to guide me and choosing a life out of photography was one of it.
-            I never had any professional training in photography but was pretty fortunate to work under some real
-            professionals.
-          </p>
+      <div className='mb-8 lg:h-screen w-full mt-8 '>
+        <div className=' relative h-1/2 md:h-5/6 text-center  flex  items-center  justify-center '>
+          <img className='h-full w-full  ' src={'https://static.wixstatic.com/media/7dae14_32619720da6948eeb3018308e8dfe98f~mv2.jpg/v1/fill/w_1899,h_879,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7dae14_32619720da6948eeb3018308e8dfe98f~mv2.jpg'} alt="Your Image" />
+          <div className=' absolute  font-sang text-white font-bold text-lg md:text-3xl lg:text-4xl'>
+            This is our story
+          </div>
         </div>
       </div>
-      <div id="second-header">
-        <Image className="second-image mt-8" src={shivamPic} alt="" />
+
+
+      <div className='mb-8  lg:-mt-28 flex text-center justify-center'>
+        <p className='m-4 lg:w-2/3 p-8 rounded-lg drop-shadow-xl bg-slate-50  font-semibold tracking-wide text-lg font-ste'>
+
+          Our early childhood was spent in the holy city of Varanasi, which is also our birthplace. However, we eventually moved to Kolkata, famously known as the "City of Joy", in search of better opportunities. It didn't take long for us to fall in love with the city's vibrant culture. During our teenage years, we developed a keen interest in photography. Shivam pursued photography professionally, while Shubham enjoyed exploring the city and communicating, which helped Shivam in capturing great photos. Eventually, we decided to establish our first photo tour company, Kolkataphototours.com. Over the last five years, we have collaborated with over 150 photographers and filmmakers through Kolkataphototours.com. Furthermore, we have expanded our photography tour services to cover various destinations throughout India. We guarantee a memorable photo tour experience in India with us.
+        </p>
+
       </div>
-      <div className=' text-center sm:text-xl mt-8 leading-relaxed font-ste tracking-wide'>
-        My goal with photography is to show the beauty, grace, strength, and enthusiasm of people.
-        I focus on non-models and place regular people in exaggerated situations that highlight an aspect of who they are.
-        I look for a sense of defiance and fortitude in my work. I provide assistance and tours of this lovely city to
-        people interested in visiting Kolkata and where to hear it best rather than from one of its biggest lovers.
-        So hoping to see you soon.
+      <div className=' flex flex-col items-center   '>
+        {/* <h1 className='text-center xl sm:text-3xl lg:text-4xl font-sang '>Meet The Reviewers</h1> */}
+
+        <div className='grid grid-cols-1 my-4 shadow-2xl lg:grid-cols-2 w-fit gap-8 lg:gap-4 border- 2 rounded-lg  p-8'>
+
+          <div className=''>
+            <iframe className="h-56 w-80 lg:w-96 shadow-2xl " src={"https://www.youtube.com/embed/5jiSX-V0Kek"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+
+          <div >
+            <iframe className="h-56 w-80 lg:w-96 " src={"https://www.youtube.com/embed/if66Fk1MaMk"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+
+
+
+
+        </div>
       </div>
+      <div className=' w-full   flex justify-center my-8 '>
+        <div className='grid lg:grid-cols-3 w-screen bg-zinc-100  lg:w-11/12 gap-0  drop-shadow-xl 	 lg:rounded' >
+          <div className='h-80 lg:h-full w-max lg:w-11/12  ' >
+            <Image className='h-80 lg:h-full w-screen ' src={headerPic} alt='pic' />
+          </div>
+          <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
+            <h1 className='text-center text-3xl font-semibold mt-4 font-sang'>Meet Shivam Pandey </h1>
+            <p className='p-4 font-sang  text-xl'>Introducing Shivam Pandey, a devoted photographer currently residing in Kolkata, a lively and vibrant city in India. Shivam is an inquisitive and daring individual who takes pleasure in discovering novel locations, immersing himself in diverse cultures, and seizing the essence of people's existence through his camera.
+
+              Despite being brought up in a traditional society that discouraged pursuing one's passion as a viable option for a flourishing future, Shivam chose to follow his instincts and pursue his ardor for photography. Although he didn't have any formal education in photography, he was fortunate to work with some of the industry's finest professionals, which honed his abilities and refined his artistic perspective.
+
+              With a natural talent for narration and a profound affection for capturing genuine moments, Shivam's photography reflects his adventurous spirit and his capacity to connect with people from all walks of life. As a photography tour leader, he relishes sharing his knowledge and techniques with other aspiring photographers, urging them to embrace their creativity and pursue their dreams, just like he did.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-    </div>
+
+
   )
 }
 
