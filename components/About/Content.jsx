@@ -37,10 +37,42 @@ const Content = () => {
         </p>
 
       </div>
-      <div className=' flex flex-col items-center   '>
-        {/* <h1 className='text-center xl sm:text-3xl lg:text-4xl font-sang '>Meet The Reviewers</h1> */}
 
-        <div className='grid grid-cols-1 my-4 shadow-2xl lg:grid-cols-2 w-fit gap-8 lg:gap-4 border- 2 rounded-lg  p-8'>
+      <div className=' w-full   flex justify-center my-12  '>
+        <div className='grid lg:grid-cols-3 w-screen  my-8  lg:w-11/12 gap-0  shadow-2xl rounded-lg	 lg:rounded' >
+          <div className='h-80 lg:h-full w-max lg:w-11/12  ' >
+            <Image className='h-80 lg:h-full w-screen ' src={headerPic} alt='pic' />
+          </div>
+          <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
+            <h1 className='text-center text-3xl font-semibold mt-4 font-sang'>Meet Shivam Pandey </h1>
+            <p className='p-4 font-sang  text-xl'>Introducing Shivam Pandey, a devoted photographer currently residing in Kolkata, a lively and vibrant city in India. Shivam is an inquisitive and daring individual who takes pleasure in discovering novel locations, immersing himself in diverse cultures, and seizing the essence of people's existence through his camera.
+
+              Despite being brought up in a traditional society that discouraged pursuing one's passion as a viable option for a flourishing future, Shivam chose to follow his instincts and pursue his ardor for photography. Although he didn't have any formal education in photography, he was fortunate to work with some of the industry's finest professionals, which honed his abilities and refined his artistic perspective.
+
+              With a natural talent for narration and a profound affection for capturing genuine moments, Shivam's photography reflects his adventurous spirit and his capacity to connect with people from all walks of life. As a photography tour leader, he relishes sharing his knowledge and techniques with other aspiring photographers, urging them to embrace their creativity and pursue their dreams, just like he did.</p>
+          </div>
+        </div>
+      </div>
+      <div className=' w-full   flex  justify-center lg:mb-8 '>
+        <div className='flex flex-col-reverse lg:grid  lg:grid-cols-3 w-screen   lg:w-11/12 gap-0  shadow-2xl 	 lg:rounded' >
+
+          <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
+            <h1 className='text-center text-3xl font-semibold mt-4 font-sang '>Meet Shubham Pandey </h1>
+            <p className='p-4 font-sang  text-xl '>Introducing Shivam Pandey, a devoted photographer currently residing in Kolkata, a lively and vibrant city in India. Shivam is an inquisitive and daring individual who takes pleasure in discovering novel locations, immersing himself in diverse cultures, and seizing the essence of people's existence through his camera.
+
+              Despite being brought up in a traditional society that discouraged pursuing one's passion as a viable option for a flourishing future, Shivam chose to follow his instincts and pursue his ardor for photography. Although he didn't have any formal education in photography, he was fortunate to work with some of the industry's finest professionals, which honed his abilities and refined his artistic perspective.
+
+              With a natural talent for narration and a profound affection for capturing genuine moments, Shivam's photography reflects his adventurous spirit and his capacity to connect with people from all walks of life. As a photography tour leader, he relishes sharing his knowledge and techniques with other aspiring photographers, urging them to embrace their creativity and pursue their dreams, just like he did.</p>
+          </div>
+          <div className='h-80 lg:h-full w-max lg:w-11/12' >
+            <Image className='h-80 lg:h-full lg:w-screen w-screen  ' src={headerPic} alt='pic' />
+          </div>
+        </div>
+      </div>
+      <div className=' flex flex-col items-center  mb-8  '>
+
+
+        <div className='grid grid-cols-1 my-4 b shadow-2xl lg:grid-cols-2 w-fit gap-8 lg:gap-4 border- 2 rounded-lg  p-8'>
 
           <div className=''>
             <iframe className="h-56 w-80 lg:w-96 shadow-2xl " src={"https://www.youtube.com/embed/5jiSX-V0Kek"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -53,21 +85,6 @@ const Content = () => {
 
 
 
-        </div>
-      </div>
-      <div className=' w-full   flex justify-center my-8 '>
-        <div className='grid lg:grid-cols-3 w-screen bg-zinc-100  lg:w-11/12 gap-0  drop-shadow-xl 	 lg:rounded' >
-          <div className='h-80 lg:h-full w-max lg:w-11/12  ' >
-            <Image className='h-80 lg:h-full w-screen ' src={headerPic} alt='pic' />
-          </div>
-          <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
-            <h1 className='text-center text-3xl font-semibold mt-4 font-sang'>Meet Shivam Pandey </h1>
-            <p className='p-4 font-sang  text-xl'>Introducing Shivam Pandey, a devoted photographer currently residing in Kolkata, a lively and vibrant city in India. Shivam is an inquisitive and daring individual who takes pleasure in discovering novel locations, immersing himself in diverse cultures, and seizing the essence of people's existence through his camera.
-
-              Despite being brought up in a traditional society that discouraged pursuing one's passion as a viable option for a flourishing future, Shivam chose to follow his instincts and pursue his ardor for photography. Although he didn't have any formal education in photography, he was fortunate to work with some of the industry's finest professionals, which honed his abilities and refined his artistic perspective.
-
-              With a natural talent for narration and a profound affection for capturing genuine moments, Shivam's photography reflects his adventurous spirit and his capacity to connect with people from all walks of life. As a photography tour leader, he relishes sharing his knowledge and techniques with other aspiring photographers, urging them to embrace their creativity and pursue their dreams, just like he did.</p>
-          </div>
         </div>
       </div>
 
