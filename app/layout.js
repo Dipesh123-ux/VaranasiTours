@@ -1,8 +1,10 @@
+"use client"
 import "../styles/global.css";
 import { Inter } from "next/font/google";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
+import { useRouter } from "next/navigation";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,6 +12,28 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const router = useRouter();
+  const { pathname } = router;
+  console.log(router)
+  // if (pathname === '/reviews/[id]') {
+  //   return (
+  //     <html lang="en">
+  //       <body>
+  //         <main className="app">
+  //           <Nav />
+  //           {children}
+
+  //         </main>
+  //         <script
+  //           src="https://kit.fontawesome.com/a31bdd6d95.js"
+  //           crossorigin="anonymous"
+  //         ></script>
+  //       </body>
+  //     </html>
+  //   );
+  // }
+
+
   return (
     <html lang="en">
       <body>
@@ -26,3 +50,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
