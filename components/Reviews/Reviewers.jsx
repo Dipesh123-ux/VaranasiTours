@@ -22,8 +22,6 @@ function Reviewers() {
                     <iframe class="h-56 w-96 " src="https://www.youtube.com/embed/ikGJ5Q4QpBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
-
-
             </div>
         </div>
     )
