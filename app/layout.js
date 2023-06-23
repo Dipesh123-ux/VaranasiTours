@@ -1,4 +1,3 @@
-"use client"
 import "../styles/global.css";
 import { Inter } from "next/font/google";
 import Nav from "../components/Nav";
@@ -12,9 +11,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const router = useRouter();
-  const { pathname } = router;
-  console.log(router)
+  // const router = useRouter();
+  // const { pathname } = router;
+  // console.log(router)
   // if (pathname === '/reviews/[id]') {
   //   return (
   //     <html lang="en">
