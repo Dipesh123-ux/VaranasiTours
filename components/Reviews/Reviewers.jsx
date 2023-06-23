@@ -15,8 +15,6 @@ function Reviewers() {
                     </div>
                 ))}
 
-
-
             </div>
         </div>
     )

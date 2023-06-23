@@ -13,6 +13,11 @@ const Navbar = () => {
 		setIsOpen(false);
 	}
 
+	const scrollToBottom = () => {
+		setIsOpen(false);
+		window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+	};
+
 	return (
 		<div className="h-20 ">
 			<nav className=" shadow-sm fixed w-full z-10 bg-white">
@@ -27,43 +32,42 @@ const Navbar = () => {
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 									<Link href="/" legacyBehavior>
-										<a onClick={() => setActiveLink("/")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/" ? "text-gray-500" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
+										<a onClick={() => setActiveLink("/")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											Home</a>
 									</Link>
 									<Link href="/tours-workshops" legacyBehavior>
-										<a onClick={() => setActiveLink("/tours-workshops")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/tours-workshops" ? "text-gray-500" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
+										<a onClick={() => setActiveLink("/tours-workshops")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/tours-workshops" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											Tours & Workshops</a>
 									</Link>
 									<Link href="/fixers" legacyBehavior>
-										<a onClick={() => setActiveLink("/fixers")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/fixers" ? "text-gray-500" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
+										<a onClick={() => setActiveLink("/fixers")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/fixers" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											Fixers</a>
 									</Link>
 
 									<Link href="/reviews" legacyBehavior>
-										<a onClick={() => setActiveLink("/reviews")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/reviews" ? "text-gray-500" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
+										<a onClick={() => setActiveLink("/reviews")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/reviews" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											Reviews</a>
 									</Link>
 									<Link href="/gallery" legacyBehavior>
-										<a onClick={() => setActiveLink("/gallery")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/gallery" ? "text-gray-500" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
+										<a onClick={() => setActiveLink("/gallery")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/gallery" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											Gallery</a>
 									</Link>
 									<Link href="/about" legacyBehavior>
-										<a onClick={() => setActiveLink("/about")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/about" ? "text-gray-500" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
+										<a onClick={() => setActiveLink("/about")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/about" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											About</a>
 									</Link>
 
-									<Link
-										href="/contact"
-										className="cursor-pointer bg-gray-500 text-white px-3 py-2 rounded-md text-base font-medium hover:bg-black"
+
+									<button onClick={scrollToBottom} href="" className="cursor-pointer bg-gray-500 text-white px-3 py-2 rounded-md text-base font-medium hover:bg-black"
 									>
-										Contact
-									</Link>
+										Contact</button>
+
 								</div>
 							</div>
 						</div>
@@ -215,20 +219,12 @@ const Navbar = () => {
 									>
 										About</a>
 								</Link>
-								<Link
-									href="/contact"
-									activeClass="work"
-									to="work"
-									smooth={true}
-									offset={50}
-									duration={500}
+								<button
 									className="cursor-pointer hover:bg-gray-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-									legacyBehavior
+									onClick={scrollToBottom}
 								>
-									<a onClick={() => handleActive("/contact")}
-									>
-										Contact</a>
-								</Link>
+									Contact
+								</button>
 							</div>
 						</div>
 					)}
