@@ -1,8 +1,9 @@
 import React from 'react'
+import DefaultLayout from '@/components/DefaultLayout'
 
 const Fixers = () => {
   return (
-    <div>Fixers</div>
+    <DefaultLayout>Fixers</DefaultLayout>
   )
 }
 

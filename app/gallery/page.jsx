@@ -1,8 +1,9 @@
 import React from 'react'
+import DefaultLayout from '@/components/DefaultLayout'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <DefaultLayout>Gallery</DefaultLayout>
   )
 }
 
