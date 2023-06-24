@@ -8,8 +8,8 @@ import testimonialDetails from './Details';
 
 function Testimonial() {
   return (
-    <div className='flex h-fit justify-center'>
-      <div className='flex flex-col items-center  text-center rounded-2xl shadow-md my-16 	'>
+    <div className='flex h-fit justify-center overflow-hidden'>
+      <div className='flex flex-col items-center  text-center rounded-2xl shadow-md my-16'>
         <div className='p-8 lg:p-8 grid lg:grid-cols-3 items-center -mt-4 justify-items-center'>
           {/* Map over the testimonials array */}
           {testimonialDetails.map((testimonial, index) => (

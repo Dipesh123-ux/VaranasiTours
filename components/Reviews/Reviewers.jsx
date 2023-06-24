@@ -11,7 +11,7 @@ function Reviewers() {
                
                 {ReviewersDetails.map((reviewer, index) => (
                     <div key={index}>
-                        <iframe className="h-56 w-96" src={`${reviewer.url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="h-56 w-auto md:w-96" src={`${reviewer.url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 ))}
 
