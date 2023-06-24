@@ -1,9 +1,8 @@
 import React from 'react'
-import DefaultLayout from '@/components/DefaultLayout'
 
 const ToursDynamicPage = ({params}) => {
   return (
-    <DefaultLayout>{params.images}</DefaultLayout>
+    <div>{params.images}</div>
   )
 }
 

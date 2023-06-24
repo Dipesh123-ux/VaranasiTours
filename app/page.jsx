@@ -4,17 +4,16 @@ import Tagline from '@/components/Home/Tagline'
 import ShootingSites from '@/components/Home/ShootingSites'
 import About from '@/components/Home/About'
 import ToursAndWorkShops from '@/components/Home/ToursAndWorkShops'
-import DefaultLayout from '@/components/DefaultLayout'
 
 const Home = () => {
   return (
-    <DefaultLayout>
+    <>
     <TopCarousel />
     <Tagline />
     <ShootingSites />
     <About />
     <ToursAndWorkShops />
-    </DefaultLayout>
+    </>
   )
 }
 

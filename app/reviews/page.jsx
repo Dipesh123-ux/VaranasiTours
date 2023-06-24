@@ -3,15 +3,16 @@ import ReviewsContent from '../../components/Reviews/Content'
 import Testimonal from '@/components/Reviews/Testimonal'
 import Video from '@/components/Reviews/Video'
 import Reviewers from '@/components/Reviews/Reviewers'
-import DefaultLayout from '@/components/DefaultLayout'
 const Reviews = () => {
   return (
-    <DefaultLayout>
+    <div>
       <ReviewsContent/>
       <Video/>
       <Testimonal/>
       <Reviewers/>
-    </DefaultLayout>
+       
+  
+    </div>
   )
 }
 
