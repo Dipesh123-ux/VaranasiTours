@@ -2,10 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import headerPic from './assets/shivam2.jpg';
-import shivamPic from './assets/shivam3.jpg'
-import Video from '../Reviews/Video';
-import ourStory from './assets/our-story.webp'
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Content = () => {
@@ -71,24 +67,23 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className=' flex flex-col items-center  mb-8  '>
+     
+      <div className=' flex flex-col items-center my-8 '>
 
 
-        <div className='grid grid-cols-1 my-4 b shadow-2xl lg:grid-cols-2 w-fit gap-8 lg:gap-4 border- 2 rounded-lg  p-8'>
+            <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-2   w-11/12 justify-items-center gap-8 rounded-lg  md:p-8'>
 
-          <div className=''>
-            <iframe className="h-56 w-80 lg:w-96 shadow-2xl " src={"https://www.youtube.com/embed/5jiSX-V0Kek"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </div>
+               
+                    <div className='w-11/12'>
+                        <iframe className="w-full h-56 md:h-72" src={"https://www.youtube.com/embed/5jiSX-V0Kek"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    <div className='w-11/12'>
+                        <iframe className="w-full h-56 md:h-72" src={"https://www.youtube.com/embed/5jiSX-V0Kek"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+               
 
-          <div >
-            <iframe className="h-56 w-80 lg:w-96 " src={"https://www.youtube.com/embed/if66Fk1MaMk"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </div>
-
-
-
-
+            </div>
         </div>
-      </div>
 
     </div>
 
