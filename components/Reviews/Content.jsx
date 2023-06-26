@@ -8,7 +8,7 @@ const ReviewsContent = () => {
      
       <div className='p-4 rounded '>
 
-        <div className=' text-center p-2 font-semibold tracking-wide font-ste bg-zinc-100 '>
+        <div className=' text-center p-2 font-semibold tracking-wide font-sang bg-zinc-100 '>
           <p className='p-4'>"Our guests are the heros of our story and their reviews are our reality."</p>
           <div className='w-11/12'>
 

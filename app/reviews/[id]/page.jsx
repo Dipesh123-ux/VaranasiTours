@@ -15,8 +15,8 @@ const Peoples = ({ params }) => {
                         <Image className='h-full  lg:h-screen w-screen ' src={bg} />
                         <div className=' absolute  lg:h-screen  text-end m-12 lg:-mr-52  flex flex-col items-center  '>
                             <Image className='h-20  w-20 lg:h-28 ml-2 lg:w-28 rounded-full ' src={require(`../../../components/Reviews/assets/profile-image/${testimonialDetails[id].profilePic}`)} width={200} height={200} />
-                            <p className='text-lg lg:text-xl text-white font-semibold font-ste mb-1 mt-2 -mr-4 text-center w-56 md:w-40 '>{testimonialDetails[id].name}</p>
-                            <p className='lg:text-lg  text-white  font-ste'>{testimonialDetails[id].place}</p>
+                            <p className='text-lg lg:text-xl text-black font-semibold font-sang mb-1 mt-2 -mr-4 text-center w-56 md:w-40 '>{testimonialDetails[id].name}</p>
+                            <p className='lg:text-lg font-medium text-black  font-sang'>{testimonialDetails[id].place}</p>
 
                             <div className='absolute lg:relative  mb-40 mt-40 lg:mt-52 text-center  -mr-8  flex justify-center'>
                                 {testimonialDetails[id].instagram && (
@@ -39,9 +39,9 @@ const Peoples = ({ params }) => {
                 </div>
                 <div className='md:w-2/3 lg:mt-4 '>
                     <div className='m-4 xl:w-4/6 p-4 pb-16 border-b-2'>
-                        <h1 className='text-3xl font-semibold mb-8'>What does they feels,</h1>
-                        <p className='text-xl font-bold font-ste'>{testimonialDetails[id].feeling}</p>
-                        <p className='text-end text-lg font-semibold font-ste mt-4'>{testimonialDetails[id].name}</p>
+                        <h1 className='text-3xl font-bold mb-8 font-sang'>What does they feels,</h1>
+                        <p className='text-xl font-semibold font-ste'>{testimonialDetails[id].feeling}</p>
+                        <p className='text-end text-lg font-semibold font-sang mt-4'>{testimonialDetails[id].name}</p>
                     </div>
                     {testimonialDetails[id].pics.size > 0 && (
                         <div className=' flex flex-col pb-8  items-center lg:items-start w-auto  lg:w-max '>
