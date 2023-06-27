@@ -3,10 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import profile from './assets/no_profile.jpg';
-import testimonialDetails from './Details';
+// import testimonialDetails from './Details';
 
 
-function Testimonial() {
+function Testimonial({number,testimonialDetails}) {
   return (
     <div className='flex h-fit justify-center overflow-hidden'>
       <div className='flex flex-col items-center  text-center rounded-2xl shadow-md my-16'>
@@ -23,7 +23,7 @@ function Testimonial() {
                 {/* {testimonial.username} */}
               </Link>
               <div className='h-0.5 w-full my-2 bg-black opacity-5'></div>
-              <p className='font-medium font-ste text-base md:text-lg mt-2 p-2'>{testimonial.text} (<Link href={`/reviews/${testimonial.id}`} className='text-sky-700'>Read More</Link>)</p>
+              <p className='font-medium font-ste text-base md:text-lg mt-2 p-2'>{testimonial.text} (<Link href={`/reviews/${`${number}`+testimonial.id}`} className='text-sky-700'>Read More</Link>)</p>
             </div>
           ))}
         </div>
