@@ -5,7 +5,7 @@ import headerPic from './assets/review-edit.jpg'
 const ReviewsContent = () => {
   return (
     <div>
-     
+
       <div className='p-4 rounded '>
 
         <div className=' text-center p-2 font-semibold tracking-wide font-sang bg-zinc-100 '>
@@ -15,9 +15,12 @@ const ReviewsContent = () => {
             <p className='flex  justify-end p-x-4 '>- Shivam Pandey (co founder indiatravelphotography.com)</p>
           </div>
         </div>
+        <div className='text-center mt-8 mb-4'>
+
+          <h1 className='text-4xl font-sang'>Meet the Reviewers</h1>
+        </div>
 
 
-        
       </div>
 
     </div>
