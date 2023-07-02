@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import TestimonialDetails1 from '@/components/Reviews/TestimonialDetail1'
 import TestimonialDetails2 from '@/components/Reviews/TestimonialDetails2'
+import TestimonialDetails3 from '@/components/Reviews/TestimonialDetails3'
 
 
 const Peoples = ({ params }) => {
@@ -15,6 +16,9 @@ const Peoples = ({ params }) => {
 
     if (number === 1) {
         testimonialDetails = TestimonialDetails2; // Update the existing variable
+    }
+    if (number === 2) {
+        testimonialDetails = TestimonialDetails3; // Update the existing variable
     }
 
 
@@ -30,7 +34,7 @@ const Peoples = ({ params }) => {
                         <p className='text-lg lg:text-xl text-white font-semibold font-sang  text-center '>{testimonialDetails[id].name}</p>
                         <p className='lg:text-lg font-medium text-white font-sang'>{testimonialDetails[id].place}</p>
 
-                        <div className='absolute lg:relative  text-center    flex justify-center'>
+                        <div className=' relative  text-center    flex justify-center'>
                             {testimonialDetails[id].instagram && (
                                 <Link className='text-3xl mr-4' target='_blank' href={testimonialDetails[id].instagram}>
                                     <i className="fab fa-instagram text-white"></i>

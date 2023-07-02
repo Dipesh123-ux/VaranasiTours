@@ -5,7 +5,7 @@ const ReviewersDetails = [
     },
     {
         id: 1,
-        url: 'https://www.youtube.com/embed/Xye8ijhk7Ws'
+        url: 'https://www.youtube.com/embed/pn1oGp-s3uc'
     },
 ]
 
