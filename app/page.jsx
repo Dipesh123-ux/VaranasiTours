@@ -3,7 +3,7 @@ import TopCarousel from '../components/Home/Crousel'
 import Tagline from '@/components/Home/Tagline'
 import ShootingSites from '@/components/Home/ShootingSites'
 import About from '@/components/Home/About'
-import ToursAndWorkShops from '@/components/Home/ToursAndWorkShops'
+import Reviewers from '@/components/Home/Reviewers'
 import reviewCardDetails from '@/components/Home/ReviewCardDetails'
 import Testimonial from '@/components/Reviews/Testimonal'
 
@@ -14,7 +14,7 @@ const Home = () => {
     <Tagline />
     <ShootingSites />
     <About />
-    <ToursAndWorkShops />
+    <Reviewers />
     <Testimonial testimonialDetails={reviewCardDetails} />
     </>
   )

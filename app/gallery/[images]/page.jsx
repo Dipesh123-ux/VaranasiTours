@@ -11,11 +11,6 @@ import { Brick, Dhobi, Ganga, Ganges, Nagas, Sadhu, Mud, Streets } from '../../.
 
 const Images = ({ params }) => {
 
-  const breakpointColumnsObj = {
-    default: 3,
-    1100: 2,
-    700: 1,
-  };
 
   const [Images, setImages] = useState([]);
 

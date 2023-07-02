@@ -1,8 +1,11 @@
 import React from 'react'
+import Carousel from '@/components/Tours/Carousel'
 
 const ToursDynamicPage = ({params}) => {
   return (
-    <div>{params.images}</div>
+    <div>
+      <Carousel heading={params.images.toUpperCase()} />
+    </div>
   )
 }
 

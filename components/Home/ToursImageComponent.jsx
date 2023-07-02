@@ -6,7 +6,7 @@ const GlassmorphicImage = ({ heading, path, src, text }) => {
     return (
         <Link href={`/tours-workshops/${path}`} className="relative m-4 shadow-lg border-8 shadow-gray-500 border-white rounded-xl overflow-hidden">
             <div className="relative">
-                <Image src={src} alt="Your Image" className="w-full h-full" height={500} width={500} />
+                <Image src={src} alt="Your Image" className="w-full h-full object-cover" height={500} width={500} />
 
                 <div className="inset-0 h-20 bg-white flex items-center justify-center flex-col">
                     <h1 className="text-black text-xl md:text-2xl text-center font-sang font-bold">

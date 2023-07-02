@@ -36,7 +36,7 @@ const Crousel = () => {
                     <Image src={five} className="d-block h-screen object-cover w-screen" alt={"picture"} />
                 </div>
             </Carousel>
-            <div className="absolute inset-0 top-20 bg-black opacity-50 z-8 h-screen flex items-center justify-center">
+            <div className=" flex items-center justify-center">
                 <h1 className="text-3xl md:text-5xl font-bold text-white z-20 font-sang">
                     Varanasi Photo Tours
                 </h1>
