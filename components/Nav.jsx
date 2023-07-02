@@ -41,7 +41,7 @@ const Navbar = () => {
 										>
 											Tours & Workshops</a>
 									</Link>
-									<Link href="/fixers" legacyBehavior>
+									<Link href="/tours-workshops/fixers" legacyBehavior>
 										<a onClick={() => setActiveLink("/fixers")} className={`cursor-pointer hover:bg-gray-500 ${activeLink === "/fixers" ? "text-white bg-gray-500 opacity-50" : "text-black"} hover:text-white px-3 py-2 rounded-md text-base font-medium`}
 										>
 											Fixers</a>
@@ -163,7 +163,7 @@ const Navbar = () => {
 								</Link>
 
 								<Link
-									href="/fixers"
+									href="/tours-workshops/fixers"
 									activeClass="work"
 									to="work"
 									smooth={true}

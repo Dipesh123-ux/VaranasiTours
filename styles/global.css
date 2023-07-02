@@ -22,6 +22,7 @@
 }
 
 .card-list {
+  display: none;
   column-count: 2;
   margin: 80px;
 }
@@ -38,9 +39,22 @@
   border : 2px solid white;
   object-fit: cover;
 }
+
+.image-gallery-desktop{
+  display: block;
+}
+
 @media only screen and (max-width: 700px) {
     .card-list {
         column-count: 1;
         margin : 15px;
+        display: block;
+    }
+    .image-gallery-desktop{
+      display: none;
     }
 }
+
+
+/* tessting */
+

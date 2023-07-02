@@ -4,10 +4,7 @@ import { useRouter } from 'next/navigation'
 import Masonry from 'react-masonry-css';
 import Image from 'next/image';
 import { Brick, Dhobi, Ganga, Ganges, Nagas, Sadhu, Mud, Streets } from '../../../components/Home/ImageData'
-
-
-
-
+import ImageGallery from '@/components/Gallery/ImageGallery';
 
 const Images = ({ params }) => {
 
@@ -47,6 +44,10 @@ const Images = ({ params }) => {
 
 
   return (
+    <>
+    <div className="flex justify-center md:mx-64 image-gallery-desktop">
+      <ImageGallery className="" imageList={Images} />
+    </div>
     <div className="card-list">
       {Images.map((pic) => <div className="card">
         <Image
@@ -58,6 +59,7 @@ const Images = ({ params }) => {
         ></Image>
       </div>)}
     </div>
+    </>
   )
 }
 

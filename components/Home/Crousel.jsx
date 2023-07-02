@@ -12,7 +12,7 @@ import five from './assets/5.jpg'
 
 const Crousel = () => {
     return (
-        <div>
+        <div className="relative">
             <Carousel
                 showThumbs={false}
                 showStatus={false}
@@ -36,8 +36,8 @@ const Crousel = () => {
                     <Image src={five} className="d-block h-screen object-cover w-screen" alt={"picture"} />
                 </div>
             </Carousel>
-            <div className=" flex items-center justify-center">
-                <h1 className="text-3xl md:text-5xl font-bold text-white z-20 font-sang">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-black opacity-50 z-8 flex justify-center items-center">
+                <h1 className="text-3xl md:text-5xl font-bold text-white z-20 font-sang inline-block  md:p-10">
                     Varanasi Photo Tours
                 </h1>
             </div>
