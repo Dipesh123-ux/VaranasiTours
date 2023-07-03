@@ -4,6 +4,7 @@ import Carousel from '@/components/Tours/Carousel'
 import { PhotoTours,WorkShops,Customized ,Fixers} from '@/components/Tours/Data'
 import Image from 'next/image'
 import ImageGallery from '@/components/Gallery/ImageGallery'
+import ToursVideos from '@/components/Tours/ToursVideos'
 
 const ToursDynamicPage = ({ params }) => {
 
@@ -23,6 +24,7 @@ const ToursDynamicPage = ({ params }) => {
     else if(params.images == 'fixers'){
       setData(Fixers)
     }
+    
   }
 
   useEffect(() => {
@@ -55,6 +57,7 @@ const ToursDynamicPage = ({ params }) => {
         </div>
         <div className='image-gallery-desktop mt-5'>
         <ImageGallery imageList={data?.Images} />
+
         </div>
         <div className="card-list">
           {data.Images && data?.Images.map((pic) => <div className="card">
@@ -67,6 +70,8 @@ const ToursDynamicPage = ({ params }) => {
             ></Image>
           </div>)}
         </div>
+      <ToursVideos videos={data?.videos}/>
+       
       </div>
     </div>
   )

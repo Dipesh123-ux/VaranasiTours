@@ -66,7 +66,21 @@ export const PhotoTours = {
       id: 6,
       src: "/images/Toursworkshops/Phototours/6.jpg",
     },
-  ]
+  ],
+  videos: [
+    {
+      id: 1,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+    {
+      id: 2,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+    {
+      id: 3,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+  ],
 };
 
 export const WorkShops = {
@@ -147,7 +161,18 @@ export const WorkShops = {
       id: 9,
       src: "/images/Toursworkshops/Workshop/9.jpg",
     },
-  ]
+  ],
+  videos: [
+    {
+      id: 1,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+    {
+      id: 2,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+   
+  ],
 };
 export const Fixers = {
   heading: 'Fixers',
@@ -231,7 +256,21 @@ Choose us as your photography and filmmaking fixers, and let us help you bring y
       id: 10,
       src: "/images/Toursworkshops/Fixers/10.jpg",
     },
-  ]
+  ],
+  videos: [
+    {
+      id: 1,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+    {
+      id: 2,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+    {
+      id: 3,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+  ],
 };
 export const Customized = {
   heading: 'Custormized PhotoTours',
@@ -357,6 +396,13 @@ Contact us today to embark on an unforgettable photography journey through Varan
       id: 21,
       src: "/images/Toursworkshops/Customized/21.jpg",
     },
-  ]
+  ],
+  videos: [
+    {
+      id: 0,
+      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
+    },
+   
+  ],
 };
 
