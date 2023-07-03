@@ -10,9 +10,9 @@ const ReviewsContent = () => {
 
         <div className=' text-center p-2 font-semibold tracking-wide font-sang bg-zinc-100 '>
           <p className='p-4'>"Our guests are the heros of our story and their reviews are our reality."</p>
-          <div className='w-11/12'>
+          <div className='  md:w-4/5 '>
 
-            <p className='flex  justify-end p-x-4 '>- Shivam Pandey (co founder indiatravelphotography.com)</p>
+            <p className='flex justify-center md:justify-end p-x-4 '>- Shivam Pandey </p>
           </div>
         </div>
         <div className='text-center mt-8 mb-4'>
