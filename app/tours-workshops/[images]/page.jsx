@@ -10,6 +10,7 @@ const ToursDynamicPage = ({ params }) => {
   const [data, setData] = useState({});
   const [expanded, setExpanded] = useState(false);
 
+
   const handleData = () => {
     if (params.images == 'photo-tours') {
       setData(PhotoTours)
@@ -54,7 +55,7 @@ const ToursDynamicPage = ({ params }) => {
           )}
         </div>
         <div className='image-gallery-desktop mt-5'>
-        <ImageGallery imageList={data?.Images} />
+        <ImageGallery  imageList={data?.Images} />
         </div>
         <div className="card-list">
           {data.Images && data?.Images.map((pic) => <div className="card">
@@ -67,6 +68,7 @@ const ToursDynamicPage = ({ params }) => {
             ></Image>
           </div>)}
         </div>
+
       </div>
     </div>
   )
