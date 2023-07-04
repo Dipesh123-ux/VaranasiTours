@@ -55,7 +55,7 @@ const Peoples = ({ params }) => {
             </div>
             <div className='my-12  flex flex-col items-center'>
                 <div className='md:w-5/6 shadow-xl p-8  pb-16 border-b-2'>
-                    <h1 className='text-3xl font-semibold mb-8 font-sang'>What does they feels,</h1>
+                    <h1 className='text-3xl font-semibold mb-8 font-sang'>What does {testimonialDetails[id].gender} feels,</h1>
                     <p className='text-xl  font-ste'>{testimonialDetails[id].feeling}</p>
                     <p className='text-end text-lg font-semibold font-sang mt-4'>{testimonialDetails[id].name}</p>
                 </div>
