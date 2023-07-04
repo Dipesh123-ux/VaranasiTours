@@ -6,6 +6,7 @@ import About from '@/components/Home/About'
 import HomeReviewers from '@/components/Home/HomeReviewers'
 import reviewCardDetails from '@/components/Home/ReviewCardDetails'
 import Testimonial from '@/components/Reviews/Testimonal'
+import Speciality from '@/components/Home/Speciality'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <TopCarousel />
     <Tagline />
     <ShootingSites />
+    <Speciality/>
     <About />
     <HomeReviewers />
     <Testimonial testimonialDetails={reviewCardDetails} />
