@@ -1,7 +1,7 @@
 import React from 'react'
 import ReviewersDetails from './ReviewersDetails'
 
-function Reviewers() {
+function HomeReviewers() {
     return (
         <div className=' flex flex-col items-center mb-8 '>
             <h1 className='text-center text-3xl md:text-4xl font-sang  '>Meet The Reviewers</h1>
@@ -20,4 +20,4 @@ function Reviewers() {
     )
 }
 
-export default Reviewers
+export default HomeReviewers
