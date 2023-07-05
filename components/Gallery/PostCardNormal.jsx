@@ -10,8 +10,8 @@ const PostCardNormal = ({ fixedHeight, fixedWidth, postInfo,handleImageClick }) 
                 className="object-cover rounded-md"
                 alt={`${postInfo.id}`}
                 src={postInfo.src}
-                height={800}
-                width={800}
+                height={500}
+                width={500}
             ></Image>
         </div>
     )
