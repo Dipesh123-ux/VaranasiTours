@@ -70,7 +70,7 @@ const Images = ({ params }) => {
 
   return (
     <>
-   {!show && <div className="flex justify-center mx-96 image-gallery-desktop">
+   {!show && <div className="flex justify-center lg:mx-96 image-gallery-desktop">
     <ImageGallery handleImageClick={handleImageClick} className="" imageList={Images} />
     </div>}
     {!show && <div className="card-list">
