@@ -48,7 +48,7 @@ const ToursDynamicPage = ({ params }) => {
       className='bg-white shadow-2xl h-[400px] md:h-[600px] w-5/6 md:w-1/2 mx-auto p-2 my-3 flex-col justify-center items-center'
     >
       <div className="text-2xl relative -right-[44%] -top-[4%] fa fa-close cursor-pointer" onClick={() => onClose()}></div>
-      <img className='h-5/6 object-cover' src={src} alt={`${alt}`} />
+      <Image height={800} width={800} className='h-5/6 object-cover' src={src} alt={`${alt}`} />
 
     </div>
     );
