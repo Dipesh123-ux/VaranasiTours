@@ -1,31 +1,43 @@
 "use client"
-import React, { useState } from 'react';
-// import { sendEmail } from '../services/sendinblue';
+import React, { useState,useRef } from 'react';
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [subject, setSubject] = useState('')
-  const [isSending, setIsSending] = useState(false);
+  const [result, setResult] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSending(true);
+  const form = useRef();
 
-    const htmlContent = `
-      <p><strong>Name:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Message:</strong> ${message}</p>
-    `;
-
-    // await sendEmail('your-email@example.com', 'Contact Form Submission', htmlContent);
-
-    setIsSending(false);
-    setName('');
-    setEmail('');
-    setMessage('');
+  const Result = () => {
+    return <p>Thank You, your message has been successfully sent.</p>;
   };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_2mgp4nb",
+        "template_tqs8eq6",
+        form.current,
+        "user_XHF86IxgqPH6n4BmCRK2m"
+      )
+
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+    setResult(true);
+  };
+
+
+
+
 
   return (
 
@@ -58,13 +70,13 @@ const Footer = () => {
               </ul>
             </div>
             <div class="mt-12 md:m-0">
-              <div class="form text-black">
-                <input class="input-text mb-2 p-2 w-full border  border-gray-300 rounded" type="text" name="" placeholder='Name' />
-                <input class="input-text mb-2 p-2 w-full border border-gray-300 rounded" type="text" placeholder='Email'/>
+              <form ref={form} onSubmit={sendEmail} class="form text-black">
+                <input class="input-text mb-2 p-2 w-full border  border-gray-300 rounded" type="text" name="name" placeholder='Name' />
+                <input class="input-text mb-2 p-2 w-full border border-gray-300 rounded" type="text" name="email" placeholder='Email'/>
                 <input class="input-text mb-2 p-2 w-full border border-gray-300 rounded" type="text" placeholder='Subject'/>
-                <textarea class="input-text text-area mb-2 p-2 w-full border border-gray-300 rounded" cols="0" rows="0" placeholder='Message'></textarea>
-                <input class="input-btn px-4 py-2 bg-gray-800  text-white rounded cursor-pointer font-ste hover:bg-black" type="submit" value="Send Message" />
-              </div>
+                <textarea class="input-text text-area mb-2 p-2 w-full border border-gray-300 rounded" cols="0" rows="0" name="message" placeholder='Message'></textarea>
+                <button class="input-btn px-4 py-2 bg-gray-800  text-white rounded cursor-pointer font-ste hover:bg-black" type="submit" >Send Message</button>
+              </form>
             </div>
           </div>
         </section>

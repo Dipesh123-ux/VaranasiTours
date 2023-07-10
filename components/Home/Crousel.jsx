@@ -21,19 +21,19 @@ const Crousel = () => {
                 interval={3000}
             >
                 <div>
-                    <Image src={one} className="d-block h-screen object-cover w-screen" alt={"picture"} />
+                    <Image src={one} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                 </div>
                 <div>
-                    <Image src={two} className="d-block h-screen object-cover w-screen" alt={"picture"} />
+                    <Image src={two} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                 </div>
                 <div>
-                    <Image src={three} className="d-block h-screen object-cover w-screen" alt={"picture"} />
+                    <Image src={three} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                 </div>
                 <div>
-                    <Image src={four} className="d-block h-screen object-cover w-screen" alt={"picture"} />
+                    <Image src={four} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                 </div>
                 <div>
-                    <Image src={five} className="d-block h-screen object-cover w-screen" alt={"picture"} />
+                    <Image src={five} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                 </div>
             </Carousel>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-black opacity-50 z-8 flex justify-center items-center">

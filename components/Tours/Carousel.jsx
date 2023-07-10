@@ -17,7 +17,7 @@ const Crousel = ({ heading, data }) => {
             >
                 {data && data.map((item) => (
                     <div>
-                        <Image key={item.id} src={item.url} height={500} width={500} className="d-block h-screen object-cover w-screen" alt={"picture"} />
+                        <img key={item.id} src={item.url} height={500} width={500} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                     </div>
                 ))}
             </Carousel>
