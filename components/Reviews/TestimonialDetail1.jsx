@@ -1,51 +1,50 @@
 const TestimonialDetails1 = [
-    {
-      id: 0,
-      name: 'Jake Thomas Pandermanm',
-      nickname: 'Jake',
-      place: 'United States of America',
-      username: '@jakethomasphotography',
-      text: 'Shivam and Shubham are nothing short of brilliant when it came to assisting me around India. He knows the area very well...',
-      link: `/reviews/peoples/`,
-      feeling: 'Shivam and Shubham are nothing short of brilliant when it came to assisting me around India. He knows the area very well. He had great suggestions on where to go and was able to take me to places that are out of the way and places that you just never thought of for photography. I love the way they communicated with the people and the people whose portraits I wanted to photograph. They are able to build rapport quickly. The best thing is that they are very respectful of the people that I wanted to photograph and make them feel comfortable as locals by communicating the right things. Definitely a recommendation for your go-to person in India for photography tours and projects.',
-      instagram: 'https://www.instagram.com/jakethomasphotography/',
-      profilePic: 'jake-thomas-pandermanm.png',
-      pics: [],
-      gender:"he",
-  
-    },
-    {
-      id: 1,
-      name: 'Paul Somers',
-      nickname: 'Paul',
-      place: 'United States of America',
-      username: '@jakethomasphotography',
-      text: 'Shivam has an amazing knowledge of the cities of India and what a photographer is uniquely looking for. I have worked with...',
-      link: `/reviews/peoples/`,
-      feeling: 'Shivam has an amazing knowledge of the cities of India and what a photographer is uniquely looking for. I have worked with him for my Kolkata photo shoots, but I always recommend them to other photographers coming to India as well looking at the potential that he has for across India. They help you get the shot you want, help you navigate the language and culture, and what’s more, they are super enjoyable guys to be around. ',
-      instagram: 'https://www.instagram.com/paulsomersphotography/',
-      profilePic: 'paul-somers.jpeg',
-      pics: ['somer/image-2_thumb.jpg', 'somer/image-3_thumb.jpg','somer/image-4_thumb.jpg','somer/image-5_thumb.jpg','somer/image-6_thumb.jpg',],
-      gender:"he",
-  
-    },
-    {
-      id: 2,
-      name: 'George Vourlidis',
-      username: '@jakethomasphotography',
-      text: 'They were recommended to me through a mutual photographer friend. I had two days to spend in India on my own, and I needed the assistance...',
-      link: '/reviews/peoples',
-      feeling: 'They were recommended to me through a mutual photographer friend. I had two days to spend in India on my own, and I needed the assistance of someone who knows what is happening in the city. They understand exactly what a photographer needs, are quick to learn what you are in the mood for, and will tailor the day’s schedule accordingly. They are highly communicative and make it their personal goal to make sure you get what you need from the photo walk. During these two days, we wasted no time visiting bustling local markets, Mosques, and walking the busy streets of the city. Definitely, time well spent, highly recommended.',
-      profilePic: 'george-voulderis.jpeg',
-      pics: ['george/i1.jpeg','george/i2.jpeg','george/i3.jpeg'],
-      gender:"he",
-  
-    },
-  
-  
-  
-  
-  ];
-  
-  
-  export default TestimonialDetails1;
+  {
+    id: 0,
+    name: 'Michael Sorkin',
+    username: '@jakethomasphotography',
+    place:'Germany',
+    nickname:'Michael',
+    text: 'Whenever I’m in India, I never hesitate to travel with my go-to companion, Shivam. Over time,we have explored almost every nook and cranny...',
+    link: '/reviews/peoples',
+    feeling: 'Whenever I’m in India, I never hesitate to travel with my go-to companion, Shivam. Over time,we have explored almost every nook and cranny of this incredible country together. He hasbecome my trusted guide, offering unique and unforgettable experiences tailored to my interests.From thrilling road biking trips to immersing ourselves in the vibrant atmosphere of Indian fairs,Shivam has always been my go-to person. His knowledge and passion for India are unparalleled, and he knows exactly how to curate the perfect adventure.Through our shared experiences, a strong bond has formed between us. Shivam has not only become my reliable travel partner but also a close friend. His dedication to ensuring my satisfaction and his commitment to creating memorable moments sets him apart. Worth hiring for their services in India..',
+    profilePic: 'no_profile.jpg',
+    pics: [],
+    gender:"he",
+
+  },
+  {
+    id: 1,
+    name: 'Kathy Macphee',
+    username: '@jakethomasphotography',
+    nickname:'Kathy',
+    text: 'As a woman traveller, it is truly comforting to have someone who not only understands my preferences but also goes above and beyond to...',
+    link: '/reviews/peoples',
+    feeling: 'As a woman traveller, it is truly comforting to have someone who not only understands my preferences but also goes above and beyond to ensure my comfort and safety throughout the trip. Shivam’s ability to simplify the entire travel experience is commendable. He takes into account the unique needs and concerns of female travellers, creating an environment that is welcoming, secure, and tailored to our preferences. His attention to detail and commitment to providing a seamless journey is truly exceptional. I highly recommend working with Shivam and his team to any fellow female travellers seeking a worry-free and enjoyable journey across India.',
+    profilePic: 'kathy-macphee.jpeg',
+    pics: [],
+    gender:"she",
+
+  },
+  {
+    id: 2,
+    name: 'Rosela',
+    nickname:'Rosela',
+    place: 'Italy',
+    username: '@jakethomasphotography',
+    text: 'India is an absolute treasure trove for those passionate about capturing the authenticity of real  life and real people through the lens...',
+    link: '/reviews/peoples',
+    feeling: 'India is an absolute treasure trove for those passionate about capturing the authenticity of real  life and real people through the lens of a camera. My time spent walking with Shubham was truly remarkable, as his courteous approach and expertise allowed me to immerse myself in the vibrant pulse of India. For an exceptional photography journey that delves directly into the core of this lively country, I wholeheartedly recommend hiring Shubham and experiencing the magic firsthand.',
+    profilePic: 'no_profile.jpg',
+    pics: [],
+    gender: "she",
+
+  },
+
+
+
+
+];
+
+
+export default TestimonialDetails1;

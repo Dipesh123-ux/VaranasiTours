@@ -1,90 +1,96 @@
 const TestimonialDetails2 = [
   {
     id: 0,
-    name: 'Sebastian Suki Belaustegui',
+    name: 'Seng Mah',
     username: '@jakethomasphotography',
-    text: 'I run a photography Workshop in India and I was very lucky to find my new amazing friend Shivam. I hired him as a guide, helper, and fixer...',
+    place: 'Australia',
+    text: 'Shivam led and hosted us through a multi-day photographic expedition in Varanasi in February 2023. I’ve been to Varanasi a couple of times...',
     link: '/reviews/peoples',
-    feeling: 'I run a photography Workshop in India and I was very lucky to find my new amazing friend Shivam. I hired him as a guide, helper, and fixer for my workshop and per sure he is the best one... Not only he is a super talented photographer, but also his team is always on time with a big smile, you can feel his love for his work and he will do his best to help you at any time. I recommend him 100% as the best one and most important a fantastic person to trust.',
-    instagram: 'https://www.instagram.com/photosooky/ ',
-    profilePic: 'sebastian-suki-belaustegui.png',
+    feeling: 'Shivam led and hosted us through a multi-day photographic expedition in Varanasi in February 2023. I’ve been to Varanasi a couple of times before, but the photographic activities and opportunities organised by Shivam delved deeper into the heartbeat of this holy ancient city and  provided us with amazing experiences as both photographers and travellers. We sailed on the Ganges at sunrise at sunset, with local boatmen and sadhus, we meandered through the back alleys and lanes, capturing life and light as they unfolded before us. Shivam’s knowledge of Varanasi’s old city is second to none and comes from someone who is intimately familiar with the place. I would heartily recommend Shivam as your photographic guide, mentor and fixer if you plan on visiting Varanasi. He is a 5-star experience! (Seng Mah, Venture Photography Workshops and Tours, Perth, Western Australia).',
+    profilePic: 'seng-mah.jpeg',
     pics: [],
-    gender:"he",
+    gender: "he",
 
   },
   {
     id: 1,
-    name: 'Alice Laing',
+    name: 'Miguel Jacinto',
     username: '@jakethomasphotography',
-    text: 'I have been on a few tours with Shivam in the last couple of years. Every time I go out shooting in a group with him, I’m struck by a...',
+    place: 'United States of America',
+    nickname: 'Miguel',
+    text: 'I was truly amazed by the seamless assistance provided by Shivam and Shubham for my photography project. They effortlessly arranged...',
     link: '/reviews/peoples',
-    feeling: 'I have been on a few tours with Shivam in the last couple of years. Every time I go out shooting in a group with him, I’m struck by a mixture of ...his knowledge, vision, and perspective-taking photos, personable relaxed friendly nature, and effortless patience towards amateurs like me. Each time I leave challenged by what I’ve learned and delighted by the culture, we and I have the privilege of connecting with through the lens.',
-    instagram: 'https://instagram.com/light.365?igshid=MzRlODBiNWFlZA==',
-    profilePic: 'alice.jpg',
-    pics: ['alice/i1.jpeg','alice/i2.jpeg','alice/i3.jpeg','alice/i4.jpeg'],
-    gender:"she",
+    feeling: 'I was truly amazed by the seamless assistance provided by Shivam and Shubham for my photography project. They effortlessly arranged everything, allowing us to capture the tribes we desired in the most incredible way possible. The results were some of the best photos I have ever taken. I wholeheartedly commend their exceptional work and unwavering dedication. When it comes to photography fixer jobs in India, you can trust them without a doubt.',
+    profilePic: 'no_profile.jpg',
+    pics: [],
+    gender: "he",
 
   },
-  
-    {
-      id: 2,
-      name: 'Jesse Sanderson',
-      username: '@jakethomasphotography',
-      text: 'Shivam is nothing short of brilliant when it came to assisting me around Kolkata. He knows the area very well. He had great...',
-      link: '/reviews/peoples',
-      feeling: 'Shivam’s, photography and his team’s assistance allowed me to be transported back to the city of Kolkata through the eyes of the camera lens, to relive the vibrant beauty that makes Kolkata famous, and to witness more of Shivam’s art. I could tell immediately that Shivam has a passion for photography and the city that he calls home. He is very  knowledgeable, kind, and friendly to everyone that he meets. I am very grateful for the  few days that I spent with him and the fact that he showed me parts of the city that I’d  never heard/read about before. I’d highly recommend anyone wanting to visit Kolkata to  get in touch with him as I know that you won’t be disappointed.',
-      profilePic: 'jesse-sanderson.jpeg',
-      pics: [],
-      gender:"he",
-  
-    },
-  
-    {
-      id: 3,
-      name: 'Lorenz Lazzati',
-      username: '@jakethomasphotography',
-      text: 'I had the pleasure to work with Shivam and his team for a week during a project I was doing in Kolkata. He was able to get me into places...',
-      link: '/reviews/peoples',
-      feeling: 'I had the pleasure to work with Shivam and his team for a week during a project I was doing in India. He was able to get me into places I would not have been able to get into me. He is also a super nice guy and a fun dude to spend time with! I can only say good things about him and I’m happy to say we became good friends during my time in India. Definitely recommend him to everyone looking for a reliable and professional assistant in India.',
-      instagram: 'https://www.instagram.com/lorenz.lazzati/',
-      profilePic: 'lorenz-lazzati.jpeg',
-      pics: [],
-      gender:"she",
-      
-    },
-    {
-      id: 4,
-      name: 'Stuart Jenner',    
-      username: '@jakethomasphotography',
-      text: 'I arranged a customized photography tour with them with the specific goal of capturing some great portraits of the local people in their ...',
-      link: '/reviews/peoples',
-      feeling: 'I arranged a customized photography tour with them with the specific goal of capturing some great portraits of the local people in their environment. The team had a can-do  attitude and was professional at all times. It was clear Shivam’s local knowledge of India  was invaluable and would help get me to the places I needed to go without wasting any  time. Hopefully, I will get the opportunity to do another customized photography tour with  Shivam in the future. I would highly recommend him to any photographer wanting to  explore India and go a bit deeper than the usual tourist trail.',
-      instagram: 'https://instagram.com/stuartjphotography?igshid=MzRlODBiNWFlZA==',
-      profilePic: 'no_profile.jpg',
-      pics: [],
-      gender:"he",
-  
-    },
-    
-  
-    {
-      id: 5,
-      name: 'Tanner Lee',
-      username: '@jakethomasphotography',
-      text: 'They understand where the light falls and will show you things you would take time to find on your own as a photographer working on projects...',
-      link: '/reviews/peoples',
-      feeling: 'They understand where the light falls and will show you things you would take time to find on your own as a photographer working on projects or travelling for the first time in Indian cities. I can’t wait to get back to India and work with them again. ',
-      instagram: 'https://instagram.com/tannerlee?igshid=MzRlODBiNWFlZA==',
-      profilePic: 'tanner-lee.png',
-      pics: [],
-      gender:"he",
-  
-    },
-    
-   
-  
-  
-  ];
-  
-  
-  export default TestimonialDetails2;
+
+  {
+    id: 2,
+    name: 'Bruce Westermann',
+    username: '@jakethomasphotography',
+    place: 'Australia',
+    nickname: 'Bruce',
+    text: 'Despite having visited Varanasi before, Shivam’s meticulous organization of photographic activities and opportunities allowed us to...',
+    link: '/reviews/peoples',
+    feeling: 'Despite having visited Varanasi before, Shivam’s meticulous organization of photographic activities and opportunities allowed us to delve even deeper into the soul of this ancient and sacred city, creating truly incredible experiences for both photographers and travellers. We sailed on the Ganges at sunrise and sunset, accompanied by local boatmen and sadhus, capturing mesmerizing moments of life and light unfolding before our lenses. Shivam’s unparalleled knowledge of Varanasi’s old city, combined with his intimate familiarity with the place, made him an exceptional guide, mentor, and fixer. If you plan on visiting Varanasi, I wholeheartedly recommend Shivam for a 5-star photographic experience that will leave you in awe.',
+    profilePic: 'bruce-westerman.jpeg',
+    pics: [],
+    gender: "he",
+
+  },
+
+  {
+    id: 3,
+    name: 'Aparna Guli',
+    username: '@jakethomasphotography',
+    place: 'Singapore',
+    nickname: 'Aparna',
+    text: 'Shubham’s enthusiasm & engagement was infectious and I was very comfortable with him. He then guided me through the narrow lanes & by...',
+    link: '/reviews/peoples',
+    feeling: 'Shubham’s enthusiasm & engagement was infectious and I was very comfortable with him. He then guided me through the narrow lanes & by lanes and streets where every other corner had a story to tell. Rickshaw pullers, yellow ambassador taxis, ageing doorframes, and interesting passers-by, all provide a rich tapestry of subjects for my lens. Thanks to Shubham, his expert knowledge, and his warm & friendly demeanour, I had a wonderful time during the photo walk. He was sweet enough to take BTS shots & videos while I was clicking photos & he made nice footage of them. I would highly recommend this Photowalk to anyone seeking to discover the true colours of this city in an authentic way.',
+    profilePic: 'aparna-guli.jpg',
+    pics: [],
+    gender: "she",
+
+  },
+  {
+    id: 4,
+    name: 'Christiana Hebel',
+    username: '@jakethomasphotography',
+    place: 'Germany',
+    nickname: 'Christiana',
+    text: 'I always like to hang out with a local and when I contacted them they were sweet enough to give me a photo tour for a day only as I...',
+    link: '/reviews/peoples',
+    feeling: 'I always like to hang out with a local and when I contacted them they were sweet enough to give me a photo tour for a day only as I had limited time. Shubham was such an amazing storyteller and a great guy to walk around as he make us understand everything you wanna know about India and its culture in the best manner. I am already looking forward to booking them again and enjoying my time travelling to India with Shubham or Shivam.',
+    profilePic: 'christiana-hebel.jpg',
+    pics: [],
+    gender: "she",
+
+  },
+
+
+  {
+    id: 5,
+    name: 'Bruce Miller',
+    username: '@jakethomasphotography',
+    place: 'United States of America',
+    nickname: 'Bruce',
+    text: 'I cannot express enough how satisfied I am with the exceptional service provided by Shivam and Shubham as my photography fixers. They...',
+    link: '/reviews/peoples',
+    feeling: 'I cannot express enough how satisfied I am with the exceptional service provided by Shivam and Shubham as my photography fixers. They went above and beyond to meet my photography needs, ensuring that every detail was taken care of. From scouting locations to arranging permits and logistics, their professionalism and attention to detail were outstanding. Their deep knowledge and understanding of photography made them invaluable resources throughout the entire process. I can confidently recommend them to anyone in need of photography fixers, as they truly exceeded my expectations and delivered a top-notch experience. ',
+    profilePic: 'bruce-miller.jpg',
+    pics: [],
+    gender: "he",
+
+  },
+
+
+
+
+];
+
+
+export default TestimonialDetails2;

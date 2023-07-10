@@ -19,9 +19,10 @@ function Testimonial({number,testimonialDetails}) {
             >
               <Image src={require(`./assets/profile-image/${testimonial.profilePic}`)} height={200} width={200} alt='pic' className='h-16 w-16 rounded-full' />
               <h2 className='my-1 font-sang font-semibold text-base tracking-wider md:text-lg'>{testimonial.name}</h2>
-              <Link href={testimonial.link} className='text-lg mb-4 text-sky-700 font-medium tracking-wide font-ste'>
-                {/* {testimonial.username} */}
-              </Link>
+              {/* <Link href={testimonial.link} className='text-lg mb-4 text-sky-700 font-medium tracking-wide font-ste'>
+                {testimonial.username}
+              </Link> */}
+              <h1 className='text-lg mb-2 text-sky-700 font-medium tracking-wide font-ste'>{testimonial.place}</h1>
               <div className='h-0.5 w-full my-2 bg-black opacity-5'></div>
               <p className='font-medium font-ste text-base md:text-lg mt-2 p-2'>{testimonial.text} (<Link href={`/reviews/${`${number}`+testimonial.id}`} className='text-sky-700'>Read More</Link>)</p>
             </div>

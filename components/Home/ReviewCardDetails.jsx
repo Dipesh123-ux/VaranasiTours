@@ -1,42 +1,47 @@
 const reviewCardDetails = [
+   
     {
       id: 0,
-      name: 'Paul Somers',
-      nickname: 'Paul',
-      place: 'United States of India',
+      name: 'Mark Winter',
+      nickname: 'Mark',
+      place: 'United States of America',
       username: '@jakethomasphotography',
-      text: 'Shivam and his team have an amazing knowledge of the cities of India and what a photographer is uniquely looking for.I not only...',
+      text: 'My wife and I thoroughly enjoyed our photographic expedition through India with Shivam. He was very attentive to our daily needs ...',
       link: `/reviews/peoples/`,
-      feeling: 'Shivam and his team have an amazing knowledge of the cities of India and what a photographer is uniquely looking for.I not only use them for my Kolkata photo shoots, but I always recommend them to other photographers coming to India as well.They help you get the shot you want, help you navigate the language and culture, and what’s more, they are super enjoyable guys to be around.Love the whole team.',
-      instagram: 'https://www.instagram.com/paulsomersphotography/',
-      profilePic: 'paul-somers.jpeg',
-      pics: ['i4.jpeg', 'i4.jpeg', 'i4.jpeg', 'i4.jpeg']
+      feeling: 'My wife and I thoroughly enjoyed our photographic expedition through India with Shivam. He was very attentive to our daily needs and was eager to bring me to spots for photography thatwere rewarding and memorable. One of the true highlights of our photographic journey was visiting Varanasi. We stayed at an adjacent hotel to the river Ganges where, at sunrise, we witnessed sights and sounds truly unforgettable.Thanks, Shivam, for a memorable stay in  Varanasi and throughout our India expedition.” Definitely, a recommendation for couples who enjoy photography can hire them for the best experience through the lens.',
+      profilePic: 'mark-winter.png',
+      pics: [],
+      gender: "he",
   
     },
     {
       id: 1,
-      name: 'George Vourlidis',
+      name: 'Trevor Cole',
+      nickname: 'Trevor',
+      place: 'United States of America',
       username: '@jakethomasphotography',
-      text: 'They were recommended to me through a mutual photographer friend. I had two days to spend in India on my own, and I needed the assistance...',
-      link: '/reviews/peoples',
-      feeling: 'They were recommended to me through a mutual photographer friend. I had two days to spend in India on my own, and I needed the assistance of someone who knows what is happening in the city. The photographers and the whole helping team are very polite people who also happen to be accomplished photographers themselves, with a growing number of Instagram followers to that effect. They understand exactly what a photographer needs,are quick to learn what you are in the mood for, and will tailor the day’s schedule accordingly. They are highly communicative and make it their personal goal to make sure you get what you need from the photo walk. During these two days, we wasted no time visiting bustling local markets, Mosques, and walking the busy streets of the city. Definitely, time well spent, highly recommended.',
-      profilePic: 'george-voulderis.jpeg',
-      pics: []
+      text: 'I had an incredible photo tour of India with the dynamic brother duo, Shivam and Shubham. From our initial interaction via...',
+      link: `/reviews/peoples/`,
+      feeling: 'I had an incredible photo tour of India with the dynamic brother duo, Shivam and Shubham. From our initial interaction via email to the conclusion of my journey, their grasp of my desired experience was spot-on, and they ensured everything was perfectly arranged. Shubham’s captivating storytelling revealed a whole new side of India that I quickly fell in love with, while Shivam’s exceptional photography skills captured the essence of the streets, making me want to stay in India indefinitely. With complete confidence, I can say that entrusting your trip to these talented brothers guarantees an extraordinary adventure in Varanasi and beyond in India. ',
+      profilePic: 'trevor-cole.jpeg',
+      pics: [],
+      gender: "he",
   
     },
     {
       id: 2,
-      name: 'Alice Laing',
+      name: 'Craig Hansen',
+      nickname:'Craig',
+      place: 'United States of America',
       username: '@jakethomasphotography',
-      text: 'I have been on a few tours with Shivam in the last couple of years. Every time I go out shooting in a group with him, I’m struck by a...',
+      text: 'I had the pleasure of booking Shivam and Shubham for a captivating workshop cum photo tour across India, with a significant portion dedicated...',
       link: '/reviews/peoples',
-      feeling: 'I have been on a few tours with Shivam in the last couple of years. Every time I go out shooting in a group with him, I’m struck by a mixture of ...his knowledge, vision and perspective taking photos, personable relaxed friendly nature, and effortless patience towards amateurs like me. Each time I leave challenged by what I’ve learnt and delighted by the culture we and I have the privilege of connecting with through the lens.',
-      instagram: 'https://www.instagram.com/laingaroundkolkata365/',
-      profilePic: 'alice.jpg',
-      pics: []
+      feeling: 'I had the pleasure of booking Shivam and Shubham for a captivating workshop cum photo tour across India, with a significant portion dedicated to exploring the enchanting city of Varanasi. Let me tell you, Shivam’s photography workshop is an absolute gem.The way he has designed it isnothing short of brilliant. His belief in learning while travelling truly resonates throughout the workshop, and you’ll find yourself gaining invaluable skills while immersing in the beauty of India.Shubham’s generosity shone through right from the start as he graciously picked us up from the airport. From that moment onwards, he proved to be an attentive and accommodating guide, always attuned to our preferences and making adjustments accordingly. The seamless coordination between the brothers made the entire experience seamless and enjoyable.  In fact, my experience was so exceptional that I have already booked two 15-day trips with them for my upcoming visit to India. That’s how confident I am in their abilities to deliver an extraordinary photo tour experience. I wholeheartedly recommend Shivam and Shubham to anyone seeking a remarkable journey through India. Their innate ability to understand your desires and bring them to life is truly unparalleled. With them by your side, you’ll create memories that will be etched in your heart  forever. Don’t miss out on the chance to explore Varanasi and beyond with these exceptionally talented individuals.',
+      profilePic: 'craig-hansen.jpeg',
+      pics: [],
+      gender: "he",
   
     },
-  
   ];
   
   
