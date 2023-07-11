@@ -14,15 +14,15 @@ export const PhotoTours = {
   carousel: [
     {
       id: 1,
-      url: "/images/Toursworkshops/Phototours/1.jpg",
+      url: "/images/Toursworkshops/Phototours/carousel/1.jpg",
     },
     {
       id: 2,
-      url: "/images/Toursworkshops/Phototours/2.jpg",
+      url: "/images/Toursworkshops/Phototours/carousel/2.jpg",
     },
     {
       id: 3,
-      url: "/images/Toursworkshops/Phototours/3.jpg",
+      url: "/images/Toursworkshops/Phototours/carousel/3.jpg",
     },
   ],
   shortContent: `
@@ -88,15 +88,15 @@ export const WorkShops = {
   carousel: [
     {
       id: 1,
-      url: "/images/Toursworkshops/Workshop/1.jpg",
+      url: "/images/Toursworkshops/Workshop/carousel/1.jpg",
     },
     {
       id: 2,
-      url: "/images/Toursworkshops/Workshop/2.jpg",
+      url: "/images/Toursworkshops/Workshop/carousel/2.jpg",
     },
     {
       id: 3,
-      url: "/images/Toursworkshops/Workshop/3.jpg",
+      url: "/images/Toursworkshops/Workshop/carousel/3.jpg",
     },
   ],
   shortContent: `
@@ -179,15 +179,15 @@ export const Fixers = {
   carousel: [
     {
       id: 1,
-      url: "/images/Toursworkshops/Fixers/1.jpg",
+      url: "/images/Toursworkshops/Fixers/carousel/1.jpg",
     },
     {
       id: 2,
-      url: "/images/Toursworkshops/Fixers/2.jpg",
+      url: "/images/Toursworkshops/Fixers/carousel/2.jpg",
     },
     {
       id: 3,
-      url: "/images/Toursworkshops/Fixers/3.jpg",
+      url: "/images/Toursworkshops/Fixers/carousel/3.jpg",
     },
   ],
   shortContent: `
@@ -277,15 +277,15 @@ export const Customized = {
   carousel: [
     {
       id: 1,
-      url: "/images/Toursworkshops/Customized/1.jpg",
+      url: "/images/Toursworkshops/Customized/carousel/1.jpg",
     },
     {
       id: 2,
-      url: "/images/Toursworkshops/Customized/2.jpg",
+      url: "/images/Toursworkshops/Customized/carousel/2.jpg",
     },
     {
       id: 3,
-      url: "/images/Toursworkshops/Customized/3.jpg",
+      url: "/images/Toursworkshops/Customized/carousel/3.jpg",
     },
   ],
   shortContent: `

@@ -13,7 +13,7 @@ const Crousel = ({ heading, data }) => {
                 showStatus={false}
                 autoPlay
                 infiniteLoop
-                interval={3000}
+                interval={2000}
             >
                 {data && data.map((item) => (
                     <div>
@@ -22,7 +22,7 @@ const Crousel = ({ heading, data }) => {
                 ))}
             </Carousel>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-black opacity-50 z-8 flex justify-center items-center">
-                <h1 className="text-3xl md:text-5xl font-bold text-white z-20 font-sang inline-block  md:p-10">
+                <h1 className="text-2xl md:text-3xl font-bold text-white z-20 font-sang inline-block  md:p-8">
                     {heading}
                 </h1>
             </div>

@@ -1,7 +1,5 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
-import Masonry from 'react-masonry-css';
 import Image from 'next/image';
 import { Brick, Dhobi, Ganga, Ganges, Nagas, Sadhu, Mud, Streets } from '../../../components/Home/ImageData'
 import ImageGallery from '@/components/Gallery/ImageGallery';
