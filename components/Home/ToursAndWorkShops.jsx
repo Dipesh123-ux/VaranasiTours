@@ -22,7 +22,7 @@ const ToursAndWorkShops = () => {
                                 Customized Photo Tours
                             </h1>
                             <p className="text-black text-center font-ste">
-                            Experience other captivating destinations in India.... <Link className="text-black underline hover:text-blue-800" href={`/tours-workshops/customized`}>Read more!</Link>
+                                Experience other captivating destinations in India.... <Link className="text-black underline hover:text-blue-800" href={`/tours-workshops/customized`}>Read more!</Link>
                             </p>
                         </div>
                     </div>
