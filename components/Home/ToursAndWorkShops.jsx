@@ -9,8 +9,8 @@ const ToursAndWorkShops = () => {
         <div>
             <h1 class="text-center text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl font-sang ">Tours and Workshops</h1>
             <div className="grid grid-cols-1 md:grid-cols-2  md:mx-20">
-                <GlassmorphicImage src={'/images/Toursworkshops/Phototours/1.jpg'} heading="PHOTO TOURS" text="If you are planning to visit" path="photo-tours" />
-                <GlassmorphicImage src={'/images/Toursworkshops/Workshop/1.jpg'} heading={"WORKSHOPS"} text={"After doing two years of constant"} path="workshops" />
+                <GlassmorphicImage src={'/images/Toursworkshops/Phototours/1.jpg'} heading="PHOTO TOURS" text="If you are planning to Visit Varanasi" path="photo-tours" />
+                <GlassmorphicImage src={'/images/Toursworkshops/Workshop/1.jpg'} heading={"WORKSHOPS"} text={"Enhance your photography skills With Shivam"} path="workshops" />
             </div>
             <div className="flex items-center justify-center">
                 <Link href={`/tours-workshops/customized`} className="relative m-4 grid shadow-lg border-8 shadow-gray-500 border-white rounded-xl overflow-hidden">
@@ -22,7 +22,7 @@ const ToursAndWorkShops = () => {
                                 Customized Photo Tours
                             </h1>
                             <p className="text-black text-center font-ste">
-                                Visiting a new location for photo... <Link className="text-black underline hover:text-blue-800" href={`/tours-workshops/customized`}>Read more!</Link>
+                            Experience other captivating destinations in India.... <Link className="text-black underline hover:text-blue-800" href={`/tours-workshops/customized`}>Read more!</Link>
                             </p>
                         </div>
                     </div>

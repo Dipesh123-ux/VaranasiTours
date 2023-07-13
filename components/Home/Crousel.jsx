@@ -6,6 +6,8 @@ import Image from 'next/image';
 import one from './assets/1.jpg';
 import two from './assets/2.jpg'
 import three from './assets/3.jpg'
+import four from './assets/4.jpg'
+import five from './assets/5.jpg'
 
 
 const Crousel = () => {
@@ -27,9 +29,15 @@ const Crousel = () => {
                 <div>
                     <Image src={three} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
                 </div>
+                <div>
+                    <Image src={four} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
+                </div>
+                <div>
+                    <Image src={five} className="d-block h-[500px] md:h-screen object-cover w-screen" alt={"picture"} />
+                </div>
             </Carousel>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center bg-black opacity-50 z-8 flex justify-center items-center">
-                <h1 className="text-2xl md:text-3xl font-bold text-white z-20 font-sang inline-block  md:p-8">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white z-20 font-sang inline-block  md:px-8  md:py-4">
                     Varanasi Photo Tours
                 </h1>
             </div>
