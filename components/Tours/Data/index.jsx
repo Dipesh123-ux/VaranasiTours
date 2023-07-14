@@ -3,7 +3,15 @@ export const Home = {
   carousel: [
     {
       id: 0,
-      url: "/images/Toursworkshops/home/1.jpg"
+      url: "/images/Toursworkshops/Phototours/1.jpg"
+    },
+    {
+      id: 1,
+      url: "/images/Toursworkshops/Workshop/1.jpg"
+    },
+    {
+      id: 2,
+      url: "/images/Toursworkshops/Customized/6.jpg"
     },
   ]
 }
