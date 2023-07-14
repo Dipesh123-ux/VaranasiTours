@@ -9,6 +9,7 @@ import youtube1 from '@/data/about/youtube/1';
 import youtube2 from '@/data/about/youtube/2';
 import shivamLink from '@/data/about/socialMedia/shivam';
 import shubhamLink from '@/data/about/socialMedia/shubham';
+import aboutHeader from './assets/aboutHeader.jpg'
 
 const Content = () => {
   return (
@@ -24,7 +25,7 @@ const Content = () => {
       </div>
       <div className='mb-8 lg:h-screen w-full mt-8 '>
         <div className=' relative h-1/2 md:h-5/6 text-center  flex  items-center  justify-center '>
-          <img className='h-full w-full  ' src={'https://static.wixstatic.com/media/7dae14_32619720da6948eeb3018308e8dfe98f~mv2.jpg/v1/fill/w_1899,h_879,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7dae14_32619720da6948eeb3018308e8dfe98f~mv2.jpg'} alt="Your Image" />
+          <Image className='h-full w-full ' src={aboutHeader} alt="Your Image" />
           <div className=' absolute  font-sang text-white font-bold text-lg md:text-3xl lg:text-4xl'>
             This is our story
           </div>
@@ -32,7 +33,7 @@ const Content = () => {
       </div>
 
 
-      <div className='mb-8  lg:-mt-28 flex text-center justify-center'>
+      <div className='mb-8   flex text-center justify-center'>
         <p className='mx-2 md:m-4  p-8 rounded-lg drop-shadow-xl bg-slate-50 font-medium leading-relaxed   md:font-semibold  w-full md:w-2/3 tracking-wide text-sm md:text-lg font-ste'>
 
           Our early childhood was spent in the holy city of Varanasi, which is also our
