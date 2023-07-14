@@ -33,7 +33,7 @@ const Content = () => {
       </div>
 
 
-      <div className='mb-8   flex text-center justify-center'>
+      <div className='mb-8 lg:-mt-28  flex text-center justify-center'>
         <p className='mx-2 md:m-4  p-8 rounded-lg drop-shadow-xl bg-slate-50 font-medium leading-relaxed   md:font-semibold  w-full md:w-2/3 tracking-wide text-sm md:text-lg font-ste'>
 
           Our early childhood was spent in the holy city of Varanasi, which is also our
