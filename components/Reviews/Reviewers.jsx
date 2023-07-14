@@ -1,5 +1,5 @@
 import React from 'react'
-import ReviewersDetails from './ReviewersDetails'
+import youtube2 from '@/data/reviews/youtube/2'
 
 function Reviewers() {
     return (
@@ -9,7 +9,7 @@ function Reviewers() {
             <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-2   w-11/12 justify-items-center gap-8 rounded-lg  p-8'>
 
                
-                {ReviewersDetails.map((reviewer, index) => (
+                {youtube2.map((reviewer, index) => (
                     <div className='w-11/12' key={index}>
                         <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${reviewer.url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>

@@ -4,7 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import TestimonialDetails1 from '@/components/Reviews/TestimonialDetail1'
 import TestimonialDetails2 from '@/components/Reviews/TestimonialDetails2'
-import TestimonialDetails3 from '@/components/Reviews/TestimonialDetails3'
+import TestimonialDetails3 from '@/data/reviews/testimonialDetails/1'
+import reviewCardDetails from '@/components/Home/ReviewCardDetails'
 
 
 const Peoples = ({ params }) => {
@@ -20,6 +21,9 @@ const Peoples = ({ params }) => {
     if (number === 2) {
         testimonialDetails = TestimonialDetails3; // Update the existing variable
     }
+    if(number === 3){
+        testimonialDetails = reviewCardDetails
+    }
 
 
 
@@ -30,7 +34,7 @@ const Peoples = ({ params }) => {
                 <div className='flex flex-col   justify-center items-center   h-2/3' >
                     <Image className=' object-cover   w-screen ' src={bg} style={{height:"450px"}} />
                     <div className=' absolute  flex flex-col gap-2 items-center h-fit'>
-                        <Image className='h-20  w-20 lg:h-28 ml-2 lg:w-28 rounded-full cover' src={require(`../../../components/Reviews/assets/profile-image/${testimonialDetails[id].profilePic}`)} width={200} height={200} />
+                        <Image className='h-20  w-20 lg:h-28 ml-2 lg:w-28 rounded-full cover' src={require(`../../../public/images/reviews/profile-image/${testimonialDetails[id].profilePic}.jpg`)} width={200} height={200} />
                         <p className='text-lg lg:text-xl text-white font-semibold font-sang  text-center '>{testimonialDetails[id].name}</p>
                         <p className='lg:text-lg font-medium text-white font-sang'>{testimonialDetails[id].place}</p>
 

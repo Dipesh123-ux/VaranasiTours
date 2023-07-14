@@ -1,6 +1,6 @@
 import React from 'react'
 import Testimonial from '@/components/Reviews/Testimonal'
-import TestimonialDetails3 from '@/components/Reviews/TestimonialDetails3'
+import TestimonialDetails3 from '@/data/reviews/testimonialDetails/1'
 
 const MoreReviews = () => {
   return (

@@ -17,7 +17,7 @@ const Home = () => {
     <Speciality/>
     <About />
     <HomeReviewers />
-    <Testimonial testimonialDetails={reviewCardDetails} />
+    <Testimonial number={3} testimonialDetails={reviewCardDetails} />
     </>
   )
 }
