@@ -1,3 +1,8 @@
+import youtubeFixer from "@/data/fixers/youtube";
+import youtubeCutomizedPhotoTours from "@/data/tours-and-workshop/customizedPhotoTours/youtube";
+import youtubePhotoTours from "@/data/tours-and-workshop/photoTours/youtube";
+import youtubeWorkshops from "@/data/tours-and-workshop/workshops/youtube";
+
 export const Home = {
   heading: 'Tours & Workshops',
   carousel: [
@@ -75,20 +80,7 @@ export const PhotoTours = {
       src: "/images/Toursworkshops/Phototours/6.jpg",
     },
   ],
-  videos: [
-    {
-      id: 1,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-    {
-      id: 2,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-    {
-      id: 3,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-  ],
+  videos: youtubePhotoTours
 };
 
 export const WorkShops = {
@@ -170,17 +162,7 @@ export const WorkShops = {
       src: "/images/Toursworkshops/Workshop/9.jpg",
     },
   ],
-  videos: [
-    {
-      id: 1,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-    {
-      id: 2,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-   
-  ],
+  videos:youtubeWorkshops
 };
 export const Fixers = {
   heading: 'Fixers',
@@ -265,20 +247,7 @@ Choose us as your photography and filmmaking fixers, and let us help you bring y
       src: "/images/Toursworkshops/Fixers/10.jpg",
     },
   ],
-  videos: [
-    {
-      id: 1,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-    {
-      id: 2,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-    {
-      id: 3,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-  ],
+  videos:youtubeFixer
 };
 export const Customized = {
   heading: 'Custormized PhotoTours',
@@ -405,12 +374,6 @@ Contact us today to embark on an unforgettable photography journey through Varan
       src: "/images/Toursworkshops/Customized/21.jpg",
     },
   ],
-  videos: [
-    {
-      id: 0,
-      url: "https://www.youtube.com/embed/pn1oGp-s3uc",
-    },
-   
-  ],
+  videos: youtubeCutomizedPhotoTours
 };
 
