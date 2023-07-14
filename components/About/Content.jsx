@@ -52,23 +52,26 @@ const Content = () => {
 
       </div>
 
-      <div className=' w-full  h-full flex justify-center my-12  '>
-        <div className='grid h-screen  lg:grid-cols-3 w-screen  my-8  lg:w-11/12 gap-0  shadow-2xl rounded-lg	 lg:rounded' >
-          <div className='bg-black h-5/6  border-4  w-max lg:w-11/12  ' >
-            <Image className=' h-4/5 w-screen object-cover' src={shivamPic} alt='pic' />
-            <div className='py-12 h-1/5 flex flex-col text-center justify-center md:gap-4 bg-gray-700'>
-              <h1 className='text-white text-2xl md:text-3xl font-sang'>Follow us on social media</h1>
-              <div className='flex justify-center '>
-                <div className='border-2 text-lg md:text-xl flex    p-2 rounded-full bg-gray-600 text-white'>
-                  <ul class="flex justify-start  md:gap-4">
-                    <li><a href={shivamLink.Instagram} class="text-3xl mx-2 hover:text-[#00acee]" target='_blank'><i class="fab fa-instagram"></i></a></li>
-                    <li><a href={shivamLink.Behance} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-behance"></i></a></li>
-                    <li><a href={shivamLink.Facebook} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-facebook"></i></a></li>
-                    <li><a href={shivamLink.Website} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-whatsapp"></i></a></li>
-                    <li><a href={shivamLink.Youtube} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
+      <div className=' w-full   flex justify-center my-12  '>
+        <div className='grid lg:grid-cols-3 w-screen  my-8  lg:w-11/12 gap-0  shadow-2xl rounded-lg	 lg:rounded' >
+          <div className="h-80 lg:h-full w-max lg:w-11/12 relative">
+            <Image className="h-80 lg:h-full w-screen object-cover" src={shivamPic} alt="pic" />
+            <div className="absolute bottom-0 left-0 w-full h-20 bg-black bg-opacity-50 flex items-center justify-around">
+              <Link href={shivamLink.Facebook} target="_blank">
+                <i className="fa fa-facebook icon text-white text-2xl hover:text-[#1877F2]" />
+              </Link>
+              <Link href={shivamLink.Website} target="_blank">
+                <i className="fa fa-whatsapp icon text-white text-2xl hover:text-[#25D366]" />
+              </Link>
+              <Link href={shivamLink.Behance} target="_blank">
+                <i className="fa fa-behance icon text-white text-2xl hover:text-[#1769FF]" />
+              </Link>
+              <Link href={shivamLink.Instagram} target="_blank">
+                <i className="fa fa-instagram icon text-white text-2xl hover:text-[#E4405F]" />
+              </Link>
+              <Link href={shivamLink.Youtube} target="_blank">
+                <i className="fa fa-youtube icon text-white text-2xl hover:text-[#FF0000]" />
+              </Link>
             </div>
           </div>
           <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
@@ -87,13 +90,12 @@ const Content = () => {
               Shivam's photography reflects his adventurous spirit and his capacity to connect with people
               from all walks of life. As a photography tour leader, he relishes sharing his knowledge and
               techniques with other aspiring photographers, urging them to embrace their creativity and
-              pursue their dreams, just like he did.
-            </p>
+              pursue their dreams, just like he did.</p>
           </div>
         </div>
       </div>
-      <div className=' w-full h-full  flex  justify-center lg:mb-8 '>
-        <div className='flex h-screen flex-col-reverse lg:grid  lg:grid-cols-3 w-screen   lg:w-11/12 gap-0  shadow-2xl 	 lg:rounded' >
+      <div className=' w-full   flex  justify-center lg:mb-8 '>
+        <div className='flex flex-col-reverse lg:grid  lg:grid-cols-3 w-screen   lg:w-11/12 gap-0  shadow-2xl 	 lg:rounded' >
 
           <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
             <h1 className='text-center text-3xl font-semibold mt-4 font-sang '>Meet Shubham Pandey </h1>
@@ -110,24 +112,26 @@ const Content = () => {
               trade organisations and NGOs from all around the world. With his
               distinctive perspective and sharp attention to detail, Shubham is certain
               that he will make you capture the essence of any subject and tell its story
-              through the lens of your camera.
-            </p>
+              through the lens of your camera.</p>
           </div>
-          <div className='bg-black h-5/6  border-4  w-max lg:w-11/12  ' >
-            <Image className=' h-4/5 w-screen object-cover' src={shubhamPic} alt='pic' />
-            <div className='py-12 h-1/5 flex flex-col text-center justify-center md:gap-4 bg-gray-700'>
-              <h1 className='text-white text-2xl md:text-3xl font-sang'>Follow us on social media</h1>
-              <div className='flex justify-center '>
-                <div className='border-2 text-lg md:text-xl flex    p-2 rounded-full bg-gray-600 text-white'>
-                <ul class="flex justify-start  md:gap-4">
-                    <li><a href={shubhamLink.Instagram} class="text-3xl mx-2 hover:text-[#00acee]" target='_blank'><i class="fab fa-instagram"></i></a></li>
-                    <li><a href={shubhamLink.Behance} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-behance"></i></a></li>
-                    <li><a href={shubhamLink.Facebook} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-facebook"></i></a></li>
-                    <li><a href={shubhamLink.Website} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-whatsapp"></i></a></li>
-                    <li><a href={shubhamLink.Youtube} class="text-3xl mx-2 hover:text-[#3b5998]" target='_blank'><i class="fab fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
+          <div className="h-80 lg:h-full w-max lg:w-11/12 relative">
+            <Image className="h-80 lg:h-full w-screen object-cover" src={shubhamPic} alt="pic" />
+            <div className="absolute bottom-0 left-0 w-full h-20 bg-black bg-opacity-50 flex items-center justify-around">
+              <Link href={shubhamLink.Facebook} target="_blank">
+                <i className="fa fa-facebook icon text-white text-2xl hover:text-[#1877F2]" />
+              </Link>
+              <Link href={shubhamLink.Website} target="_blank">
+                <i className="fa fa-whatsapp icon text-white text-2xl hover:text-[#25D366]" />
+              </Link>
+              <Link href={shubhamLink.Behance} target="_blank">
+                <i className="fa fa-behance icon text-white text-2xl hover:text-[#1769FF]" />
+              </Link>
+              <Link href={shubhamLink.Instagram} target="_blank">
+                <i className="fa fa-instagram icon text-white text-2xl hover:text-[#E4405F]" />
+              </Link>
+              <Link href={shubhamLink.Youtube} target="_blank">
+                <i className="fa fa-youtube icon text-white text-2xl hover:text-[#FF0000]" />
+              </Link>
             </div>
           </div>
         </div>
