@@ -17,7 +17,7 @@ function ToursVideos({ videos }) {
 
 
                             <div className='w-full' >
-                                <iframe className="w-full h-[500px] rounded-lg" src={`${videos[0].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                <iframe className="w-full h-[300px] md:h-[500px] rounded-lg" src={`${videos[0].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
 
 
@@ -26,14 +26,14 @@ function ToursVideos({ videos }) {
                     <div className=' flex flex-col items-center mb-8 '>
 
 
-                        <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-2   w-11/12 justify-items-center gap-8 rounded-lg  p-8'>
+                        <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-2 w-full sm:w-11/12 justify-items-center gap-8 rounded-lg  p-8'>
 
 
 
-                            <div className='w-11/12' >
+                            <div className='w-full sm:w-11/12' >
                                 <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${videos[0].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
-                            <div className='w-11/12'>
+                            <div className='w-full sm:w-11/12'>
                                 <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${videos[1].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
 
@@ -47,14 +47,14 @@ function ToursVideos({ videos }) {
                 <div className=' flex flex-col items-center mb-8 '>
 
 
-                    <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-2   w-11/12 justify-items-center gap-8 rounded-lg  p-8'>
+                    <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-2  w-full sm:w-11/12 justify-items-center gap-8 rounded-lg  p-8'>
 
 
 
-                        <div className='w-11/12' >
+                        <div className='w-full sm:w-11/12' >
                             <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${videos[0].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
-                        <div className='w-11/12' >
+                        <div className='w-full sm:w-11/12' >
                             <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${videos[1].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
 
@@ -71,7 +71,7 @@ function ToursVideos({ videos }) {
 
 
                         <div className='w-full' >
-                            <iframe className="w-full h-[500px] rounded-lg" src={`${videos[0].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className="w-full h-[350px] md:h-[500px] rounded-lg" src={`${videos[0].url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
 
 

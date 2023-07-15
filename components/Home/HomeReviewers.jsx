@@ -9,7 +9,7 @@ function HomeReviewers() {
             <div className='grid grid-cols-1 mt-4 shadow-2xl lg:grid-cols-1 w-full  md:w-2/3 justify-items-center gap-8 rounded-lg  p-8'>
 
                     <div className='w-full' >
-                        <iframe className="w-full h-[500px] rounded-lg" src={`${youtube1.url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="w-full h-[350px] md:h-[500px] rounded-lg" src={`${youtube1.url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                
 
