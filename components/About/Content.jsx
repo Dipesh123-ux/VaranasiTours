@@ -145,10 +145,10 @@ const Content = () => {
 
 
           <div className='w-11/12'>
-            <iframe className="w-full h-56 md:h-80 rounded-lg" src={youtube1.url} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe className="w-full h-56 md:h-80 rounded-lg"  src={`${youtube1.url}?rel=0`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           <div className='w-11/12'>
-            <iframe className="w-full h-56 md:h-80 rounded-lg" src={youtube2.url} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${youtube2.url}?rel=0`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
 
 

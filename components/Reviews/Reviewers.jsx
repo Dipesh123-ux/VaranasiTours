@@ -11,7 +11,7 @@ function Reviewers() {
                
                 {youtube2.map((reviewer, index) => (
                     <div className='w-11/12' key={index}>
-                        <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${reviewer.url}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${reviewer.url}?rel=0`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 ))}
 
