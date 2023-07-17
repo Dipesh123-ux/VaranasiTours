@@ -41,8 +41,8 @@ const Footer = () => {
 
   return (
 
-    <footer class="footer_wrapper mt-8  py-8 border-t-2 text-black flex justify-center drop-shadow-md">
-      <div class="container ">
+    <footer class="footer_wrapper mt-8  py-8  text-black flex justify-center drop-shadow-md bg-gray-50">
+      <div class="container  ">
         <section class="page_section contact" id="contact">
           <div class="contact_section">
             <h2 class="text-2xl md:text-3xl  text-center mt-4 mb-12 font-sang font-medium">Contact Us for Bookings</h2>
@@ -53,7 +53,7 @@ const Footer = () => {
             <form ref={form} onSubmit={sendEmail} class="form text-black  ">
               <div className='flex md:flex-row flex-col justify-center justify-items-center gap-2 mx-8 md:mx-32 lg:gap-4  '>
                 <div>
-                  <input class="input-text mb-4 p-2 w-full md:w-5/6 lg:w-full border  bg-zinc-50  border-gray-300 rounded" type="text" name="name" placeholder='Name' />
+                  <input class="input-text mb-4 p-2 w-full md:w-5/6 lg:w-full border   bg-zinc-50  border-gray-300 rounded" type="text" name="name" placeholder='Name' />
                   <input class="input-text mb-4 p-2 w-full md:w-5/6 lg:w-full border bg-zinc-50 border-gray-300 rounded" type="text" name="email" placeholder='Email' />
                   <input class="input-text mb-4 p-2 w-full md:w-5/6 lg:w-full border bg-zinc-50 border-gray-300 rounded" type="text" placeholder='Subject' />
                 </div>

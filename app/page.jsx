@@ -7,6 +7,7 @@ import HomeReviewers from '@/components/Home/HomeReviewers'
 import reviewCardDetails from '@/components/Home/ReviewCardDetails'
 import Testimonial from '@/components/Reviews/Testimonal'
 import Speciality from '@/components/Home/Speciality'
+import Link from 'next/link'
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
     <About />
     <HomeReviewers />
     <Testimonial number={3} testimonialDetails={reviewCardDetails} />
+    <div className='text-center text-lg  -mt-8 mb-8 mr-8 font-sang font-semibold'><Link className='w-max shadow-md border-b-2 p-2' href={'/reviews/moreReviews'}>Read More Reviews</Link></div>
+
     </>
   )
 }

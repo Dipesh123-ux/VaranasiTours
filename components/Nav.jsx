@@ -25,8 +25,8 @@ const Navbar = () => {
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-10  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold font-sang text-base -mx-6 md:m-0 md:text-xl cursor-pointer text-gray-500">
-									Photo Tours, Workshops<span className="text-black"> & </span>Fixers
+								<h1 className=" font-bold font-sang  -mx-6 text-xl md:m-0  md:text-3xl cursor-pointer text-gray-500">
+								Varanasi Photo Tours
 								</h1>
 							</div>
 							<div className="hidden md:block">
