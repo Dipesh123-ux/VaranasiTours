@@ -18,6 +18,7 @@ const TestimonialDetails1 = [
     name: 'Kathy Macphee',
     username: '@jakethomasphotography',
     nickname:'Kathy',
+    place:'Australia',
     text: 'As a woman traveller, it is truly comforting to have someone who not only understands my preferences but also goes above and beyond to...',
     link: '/reviews/peoples',
     feeling: 'As a woman traveller, it is truly comforting to have someone who not only understands my preferences but also goes above and beyond to ensure my comfort and safety throughout the trip. Shivam’s ability to simplify the entire travel experience is commendable. He takes into account the unique needs and concerns of female travellers, creating an environment that is welcoming, secure, and tailored to our preferences. His attention to detail and commitment to providing a seamless journey is truly exceptional. I highly recommend working with Shivam and his team to any fellow female travellers seeking a worry-free and enjoyable journey across India.',

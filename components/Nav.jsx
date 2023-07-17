@@ -62,11 +62,13 @@ const Navbar = () => {
 										>
 											About</a>
 									</Link>
+								
 
-
-									<button onClick={scrollToBottom} href="" className="cursor-pointer bg-gray-500 text-white px-3 py-2 rounded-md text-base font-medium hover:bg-black"
-									>
-										Contact</button>
+									<Link href="/contact" legacyBehavior>
+										<button href="" onClick={() => setActiveLink("/contact")} className="cursor-pointer bg-gray-500 text-white px-3 py-2 rounded-md text-base font-medium hover:bg-black"
+										>
+											Contact</button>
+									</Link>
 
 								</div>
 							</div>

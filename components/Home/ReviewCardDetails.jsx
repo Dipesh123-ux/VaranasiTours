@@ -18,7 +18,7 @@ const reviewCardDetails = [
       id: 1,
       name: 'Trevor Cole',
       nickname: 'Trevor',
-      place: 'United States of America',
+      place: 'Ireland',
       username: '@jakethomasphotography',
       text: 'I had an incredible photo tour of India with the dynamic brother duo, Shivam and Shubham. From our initial interaction via...',
       link: `/reviews/peoples/`,
