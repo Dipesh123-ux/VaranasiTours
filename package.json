@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.14",
+    "animated-number-react": "^0.1.2",
     "autoprefixer": "10.4.14",
     "emailjs": "^4.0.2",
     "framer-motion": "^10.12.16",

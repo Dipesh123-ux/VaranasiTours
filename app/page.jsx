@@ -7,6 +7,7 @@ import HomeReviewers from '@/components/Home/HomeReviewers'
 import reviewCardDetails from '@/components/Home/ReviewCardDetails'
 import Testimonial from '@/components/Reviews/Testimonal'
 import Speciality from '@/components/Home/Speciality'
+import NumberCounter from '@/components/Home/NumberCounter'
 import Link from 'next/link'
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <>
     <TopCarousel />
     <Tagline />
+    <NumberCounter />
     <ShootingSites />
     <Speciality/>
     <About />
