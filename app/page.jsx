@@ -15,13 +15,13 @@ const Home = () => {
     <>
     <TopCarousel />
     <Tagline />
-    <NumberCounter />
     <ShootingSites />
     <Speciality/>
     <About />
     <HomeReviewers />
     <Testimonial number={3} testimonialDetails={reviewCardDetails} />
     <div className='text-center text-lg  -mt-8 mb-8 mr-8 font-sang font-semibold'><Link className='w-max shadow-md border-b-2 p-2' href={'/reviews/moreReviews'}>Read More Reviews</Link></div>
+    <NumberCounter />
 
     </>
   )
