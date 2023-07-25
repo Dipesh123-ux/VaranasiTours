@@ -9,8 +9,7 @@ import youtube1 from '@/data/about/youtube/1';
 import youtube2 from '@/data/about/youtube/2';
 import shivamLink from '@/data/about/socialMedia/shivam';
 import shubhamLink from '@/data/about/socialMedia/shubham';
-import aboutHeader from './assets/aboutHeader.jpg'
-
+import poster from '../../public/images/about/poster.jpg'
 const Content = () => {
   return (
     <div>
@@ -25,7 +24,7 @@ const Content = () => {
       </div>
       <div className='mb-8 lg:h-screen w-full mt-8 '>
         <div className=' relative h-1/2 md:h-5/6 text-center  flex  items-center  justify-center '>
-          <Image className='h-full w-full ' src={aboutHeader} alt="Your Image" />
+          <Image className='h-full w-full ' src={poster} alt="Your Image" />
           <div className=' absolute  font-sang text-white font-bold text-lg md:text-3xl lg:text-4xl'>
             This is our story
           </div>
